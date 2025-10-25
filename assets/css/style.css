@@ -304,3 +304,7 @@ Version: 1.0
     margin-left: 12px;
   }
 }
+
+.brand-logo .main-logo{
+  width: 160px;
+}
