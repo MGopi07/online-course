@@ -50,9 +50,7 @@
   --border-color: #efeeff;
   --heading-font: "SUSE", sans-serif;
   --body-font: "Outfit", sans-serif;
-  
 }
-
 
 html {
   font-size: 100%;
@@ -217,7 +215,22 @@ body {
   -webkit-animation: zoomInOut 3s ease-in-out infinite;
   animation: zoomInOut 3s ease-in-out infinite;
 }
-
+.loader .loader-img {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 768px) {
+  .loader .loader-img {
+    width: 130px;
+    height: 130px;
+  }
+}
+@media (max-width: 480px) {
+  .loader .loader-img {
+    width: 100px;
+    height: 100px;
+  }
+}
 @-webkit-keyframes zoomInOut {
   0% {
     -webkit-transform: scale(1);

@@ -268,9 +268,6 @@
   }
 }
 
-.brand-logo .main-logo {
-  width: 160px;
-}
 /*================about==============*/
 .ef-page-hero {
   padding: 125px 0 145px;
@@ -584,17 +581,29 @@
   opacity: 1;
 }
 
-/* Popup content */
+/* Popup box */
 .popup-box {
   background: #fff;
   padding: 20px;
   border-radius: 12px;
-  max-width: 420px;
   width: 90%;
+  /* max-width: 420px; */
+  max-width: 520px;
   text-align: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+/* Popup image */
+.popup-box img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 15px;
 }
 
 /* Close button */
@@ -607,30 +616,137 @@
   color: #fff;
   font-size: 18px;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
-  line-height: 28px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .close-btn:hover {
   background: #ff1a1a;
 }
 
-/* Image styling */
-.popup-image {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
-
-h2 {
+/* Headings & text */
+.popup-box h2 {
   margin: 10px 0 5px;
   font-size: 22px;
   color: #333;
 }
 
-p {
+.popup-box p {
   font-size: 15px;
   color: #555;
+  line-height: 1.5;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+
+/* Small phones (under 480px) */
+@media (max-width: 480px) {
+  .popup-box {
+    /* width: 92%; */
+    width: 70%;
+    padding: 14px;
+    border-radius: 10px;
+  }
+
+  .popup-box img {
+    /* max-height: 200px; */
+    max-height: 350px;
+  }
+
+  .popup-box h2 {
+    font-size: 18px;
+  }
+
+  .popup-box p {
+    font-size: 14px;
+  }
+
+  .close-btn {
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .popup-box {
+    width: 85%;
+    padding: 18px;
+  }
+
+  .popup-box img {
+    /* max-height: 250px; */
+    max-height: 450px;
+  }
+
+  .popup-box h2 {
+    font-size: 20px;
+  }
+
+  .popup-box p {
+    font-size: 15px;
+  }
+}
+
+/* Laptops & desktops (769px to 1199px) */
+@media (min-width: 769px) and (max-width: 1199px) {
+  .popup-box {
+    max-width: 480px;
+  }
+
+  .popup-box img {
+    max-height: 580px;
+  }
+}
+
+/* Large screens (above 1200px) */
+@media (min-width: 1200px) {
+  .popup-box {
+    max-width: 500px;
+  }
+
+  .popup-box h2 {
+    font-size: 24px;
+  }
+
+  .popup-box p {
+    font-size: 16px;
+  }
+}
+
+/*------logo----*/
+.brand-logo .main-logo {
+  width: 180px;
+}
+
+.footer-logo a img {
+  width: 200px;
+}
+
+/* ✅ Mobile Responsive (max-width: 768px) */
+@media (max-width: 768px) {
+  .brand-logo .main-logo {
+    width: 140px; /* reduce size for tablets and mobile */
+  }
+
+  .footer-logo a img {
+    width: 150px;
+  }
+}
+
+/* ✅ Extra Small Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .brand-logo .main-logo {
+    width: 120px; /* smaller for phones */
+  }
+
+  .footer-logo a img {
+    width: 130px;
+  }
 }
