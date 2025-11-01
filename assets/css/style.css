@@ -246,7 +246,7 @@
   }
 }
 
-/* Testimonial Section */
+/*--------- Testimonial Section ------------*/
 .testimonial-slider {
   margin-left: -15px;
   margin-right: -15px;
@@ -377,7 +377,7 @@
   /* color: #6255fa !important; */
   color: var(--primary-color) !important;
 }
-/* Telegram Connect Section */
+/*------==== Telegram Connect Section----===== */
 .connect-section {
   background: white;
   border-radius: 15px;
@@ -431,56 +431,8 @@
   line-height: 1.6;
 }
 
-/*-----why-learn-section---------*/
-/* .why-learn-section {
-  background-color: #fafaff;
-  padding: 90px 0px;
-}
+/*-----course-card-section---------*/
 
-.why-card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  height: 100%;
-}
-
-.why-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-}
-
-.why-icon {
-  background-color: var(--primary-color);
-  color: #fff;
-  font-size: 1.8rem;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-
-@media (max-width: 768px) {
-  .why-card {
-    padding: 1.5rem;
-  }
-  .why-icon {
-    font-size: 1.6rem;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-  }
-} */
-
-/*-----why-learn-section---------*/
-/* .course-card {
-  border: 1px solid #d1cdcd;
-  height: 100%;
-  border-radius: 8px;
-  padding: 10px;
-} */
 .course-card {
   background: #fff;
   border-radius: 12px;
@@ -748,5 +700,65 @@
 
   .footer-logo a img {
     width: 130px;
+  }
+}
+
+/*-----------study-material-section-------*/
+.study-material-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0a3d62;
+}
+.subject-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  color: inherit; /* Keeps text color normal */
+}
+
+.subject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.subject-card:hover .icon {
+  color:var(--primary-color);
+}
+
+.subject-card h4 {
+  font-weight: 600;
+  /* color: #222; */
+  color: black;
+}
+
+/* .subject-card p {
+  color: #555;
+} */
+
+.subject-card i.icon {
+  font-size: 2rem;
+  /* color: #0a3d62; */
+  color:var(--primary-color);
+}
+
+a.subject-card {
+  text-decoration: none;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .subject-card {
+    padding: 20px;
   }
 }
