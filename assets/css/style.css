@@ -712,44 +712,42 @@
 .section-title {
   font-weight: 700;
   text-transform: uppercase;
-  color: #0a3d62;
+  /* color: #0a3d62; */
 }
 .subject-card {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
   height: 100%;
-  color: inherit; /* Keeps text color normal */
 }
 
 .subject-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.subject-card:hover .icon {
-  color:var(--primary-color);
+.subject-card i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
 }
 
 .subject-card h4 {
   font-weight: 600;
-  /* color: #222; */
-  color: black;
+  margin-bottom: 0.5rem;
 }
 
-/* .subject-card p {
-  color: #555;
-} */
-
-.subject-card i.icon {
-  font-size: 2rem;
-  /* color: #0a3d62; */
-  color:var(--primary-color);
+.subject-card .btn {
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-a.subject-card {
-  text-decoration: none;
+.subject-card .btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 /* 📱 Responsive */
@@ -760,5 +758,25 @@ a.subject-card {
 
   .subject-card {
     padding: 20px;
+  }
+}
+
+.view-pdf-btn {
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color);
+}
+.view-pdf-btn:hover {
+  background-color: var(--primary-color);
+}
+.history-section h3 i {
+  color: var(--primary-color);
+}
+@media (max-width: 768px) {
+  .ef-page-hero {
+    padding: 80px 0 80px;
+  }
+  .page-title{
+    font-size: 42px;
+    line-height: 50px;
   }
 }
