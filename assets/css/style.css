@@ -57,7 +57,8 @@
 .hero-wrapper .hero-image-box {
   position: relative;
   z-index: 1;
-  text-align: right;
+  /* text-align: right; */
+  text-align: center;
   margin-right: -200px;
 }
 @media (min-width: 1200px) and (max-width: 1450px) {
@@ -600,14 +601,14 @@
 @media (max-width: 480px) {
   .popup-box {
     /* width: 92%; */
-    width: 70%;
+    width: 80%;
     padding: 14px;
     border-radius: 10px;
   }
 
   .popup-box img {
     /* max-height: 200px; */
-    max-height: 350px;
+    max-height: 400px;
   }
 
   .popup-box h2 {
@@ -778,5 +779,8 @@
   .page-title{
     font-size: 42px;
     line-height: 50px;
+  }
+  .hero-wrapper.second-slider .container .row{
+    flex-direction: column-reverse;
   }
 }
