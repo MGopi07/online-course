@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        background: #333;
+        overflow: hidden;
+      }
+
+      .landing {
+        position: relative;
+        background-image: url("https://lh3.googleusercontent.com/lwPLG888_91olYYSRccf7Mic1nlaCvS9Bj9pnmWY_QsypHw8moeJXZ2Jt2D89yI30zxCP5CMB-z_msjlv8dwcj3E6zyH73NXH1sqVcKF-rIbslF9CdjK2q4styzQC3nYW227zKOV");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+      }
+
+      .landing-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        padding-top: 50px;
+      }
+
+      .landing img {
+        width: 200px;
+        max-width: 80%;
+      }
+
+      .landing h1 {
+        font-size: 50px;
+        margin: 10px 0;
+        text-transform: uppercase;
+      }
+
+      .landing p {
+        font-size: 20px;
+        margin: 10px 0;
+      }
+
+      /* Button Styling */
+      .go-back-btn {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 12px 28px;
+        background: #6255fa;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s ease;
+      }
+
+      .go-back-btn:hover {
+        background: #138496;
+      }
+
+      /* MOBILE RESPONSIVE */
+      @media (max-width: 650px) {
+        .landing img {
+          width: 100%;
+        }
+
+        .landing h1 {
+          font-size: 40px;
+        }
+      }
+
+      @media (max-height: 600px) {
+        img {
+          width: 20%;
+        }
+        p {
+          display: none;
+        }
+      }
+
+      @media (max-height: 400px) {
+        img {
+          padding-bottom: 30px;
+        }
+        h1 {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="landing">
+      <div class="landing-inner">
+        <img
+          src="https://lh4.googleusercontent.com/TEP8Xx24P17z_Icn0HtL7nSKVm7c9D5MgrZ_jjZM3sJ4HYb2wBGu-6uaGYsii9tJJ5VYWtrTTmCaXRMQYxbBJsc0R4iAyVrkOI4ogDKtsnw92NxjSds_y08TFwql3I_bihTDHZDo"
+          alt="Logo"
+        />
+
+        <p>All Notes</p>
+        <h1>Coming Soon</h1>
+
+        <!-- Go Back Button -->
+        <a href="index.html" class="go-back-btn">Go Back</a>
+      </div>
+    </section>
+  </body>
+</html>
