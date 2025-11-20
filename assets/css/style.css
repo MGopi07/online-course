@@ -4,7 +4,8 @@
 /* Hero Section */
 .hero-wrapper {
   position: relative;
-  background-color: #fcfcff;
+  /* background-color: #fcfcff; */
+  background-color: #ffff;
   z-index: 1;
   padding: 50px 0px;
 }
@@ -252,6 +253,10 @@
   margin-left: -15px;
   margin-right: -15px;
 }
+.ef-testimonial-item{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom:15px !important;
+}
 @media screen and (max-width: 991px) {
   .testimonial-slider {
     margin-right: -12px;
@@ -380,7 +385,7 @@
 }
 /*------==== Telegram Connect Section----===== */
 .connect-section {
-  background: white;
+  /* background: white; */
   border-radius: 15px;
   overflow: hidden;
   padding: 90px 0px;
@@ -435,12 +440,14 @@
 /*-----course-card-section---------*/
 
 .course-card {
-  background: #fff;
+  /* background: #fff; */
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) */
   transition: all 0.3s ease;
   height: 100%;
+  /* border:1px solid gray; */
 }
 
 .course-card:hover {
@@ -492,7 +499,7 @@
 }
 /*----pdf---*/
 .study-materials-section {
-  background-color: white;
+  /* background-color: white; */
   padding: 90px 0px;
 }
 
