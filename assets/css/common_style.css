@@ -107,7 +107,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 46px;
   line-height: 58px;
 }
 
@@ -263,7 +263,7 @@ body {
 /* Back To Top */
 .back-to-top {
   border-radius: 50%;
-  bottom: 30px;
+  bottom: 95px;
   cursor: pointer;
   display: none;
   font-size: 20px;
@@ -529,7 +529,7 @@ label {
   line-height: 25px;
 }
 .theme-btn.style-one:hover {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
 }
 .theme-btn.style-two {
   border: 1px solid #737477;
@@ -3417,6 +3417,7 @@ label {
   background: #fff;
   border-radius: 10px;
   padding: 25px;
+  /* margin-bottom: 20px !important; */
 }
 
 .ef-testimonial-item.style-one .testimonial-content .author-box-rating {
@@ -3937,6 +3938,9 @@ label {
   background-color: var(--white-color);
   color: var(--primary-color);
 }
+.footer-about-widget .footer-content .social-link li a i {
+  font-size: 22px;
+}
 
 .footer-contact-widget .footer-content .info-box span {
   color: rgba(255, 255, 255, 0.8);
@@ -4022,7 +4026,7 @@ label {
 
 /*-------------*/
 .ef-hero-sec {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .heroSwiper {

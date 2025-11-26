@@ -44,11 +44,12 @@
         <div class="loader">
             <img src="assets/images/Aroha logo PNG.png" alt="loader" class="img-fluid loader-img">
         </div>
-    </div><!--====== End Preloader ======-->
+    </div>
+    <!--====== End Preloader ======-->
     <!--====== Start Overlay ======-->
     <div class="offcanvas__overlay"></div>
     <!--====== Search From ======-->
-    <div class="modal fade search-modal" id="search-modal">
+    <!-- <div class="modal fade search-modal" id="search-modal">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <form>
@@ -60,7 +61,37 @@
             </div>
 
         </div>
-    </div><!--====== Search From ======-->
+    </div> -->
+   <div class="modal fade search-modal" id="search-modal">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+
+      <!-- Close Button -->
+      <button type="button" class="btn-close close-search"
+        data-bs-dismiss="modal">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+      <div class="search-container text-center">
+        <form onsubmit="return false;">
+          <div class="search-box">
+            <input type="search" id="searchInput" class="form-control"
+              placeholder="Search PDF files..." autocomplete="off" />
+            <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+          </div>
+        </form>
+
+        <!-- Results -->
+        <div id="searchResults" class="search-results"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    
+    <!--====== Search From ======-->
     <!--===  Header Area  ===-->
     <header class="header-area header-one">
         <!--====  Header Top  ===-->
@@ -171,11 +202,22 @@
 
                         <!--=== Header Nav Right ===-->
                         <div class="nav-right-item">
-                            <div class="search-btn">
-                                <button class="icon" data-bs-toggle="modal" data-bs-target="#search-modal">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </button>
-                            </div>
+                           
+<div class="search-btn">
+  <button class="icon" data-bs-toggle="modal" data-bs-target="#search-modal">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
+
+<!-- <div class="modal fade" id="search-modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content p-3">
+      <input type="text" id="searchInput" class="form-control mb-3" placeholder="Search files...">
+      <ul id="searchResults" class="list-group"></ul>
+    </div>
+  </div>
+</div> -->
+
                             <!-- <div class="nav-button d-none d-xl-block">
                                 <a href="#" class="theme-btn style-one">Log in</a>
                                 <a href="#" class="theme-btn style-two">Register</a>
@@ -197,177 +239,53 @@
     <!--====== End Header Area  ======-->
     <!--====== Start Hero Section ======-->
 
-    <!-- <section class="ef-hero-sec">
-        <div class="swiper heroSwiper">
+  <section class="ef-hero-sec">
+  <div class="swiper heroSwiper">
 
-            <div class="swiper-wrapper">
+    <div class="swiper-wrapper">
 
-               
-                <div class="swiper-slide">
-                    <div class="hero-wrapper bg_cover overflow-hidden"
-                       >
-                        
-                        <div class="container">
-                            <div class="row align-items-center">
-                                
-                                <div class="col-lg-12">
-                                    <div class="hero-image-box dektop-none">
-                                      
-                                        <img src="assets/images/banner/mains_test_series_banner.webp" loading="lazy" alt="Hero 1">
-                                    </div>
-                                     <div class="hero-image-box mobile-none">
-                                      
-                                        <img src="assets/images/dsektop-banner/mains_test_series_banner.jpg" loading="lazy" alt="Hero 1">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-             
-                <div class="swiper-slide">
-                    <div class="hero-wrapper second-slider bg_cover overflow-hidden"
-                        >
-                        
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-12">
-                                    <div class="hero-image-box dektop-none">
-                                       
-                                        <img src="assets/images/banner/telegram_banner.webp" loading="lazy" alt="Hero 1">
-                                    </div>
-                                    <div class="hero-image-box mobile-none">
-                                      
-                                        <img src="assets/images/dsektop-banner/telegram_banner.jpg" loading="lazy" alt="Hero 1">
-                                    </div>
-                                </div>
-
-                                
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class="swiper-slide">
-                    <div class="hero-wrapper bg_cover overflow-hidden"
-                        >
-                       
-                        <div class="container">
-                            <div class="row align-items-center">
-                                
-                                <div class="col-lg-12">
-                                    <div class="hero-image-box dektop-none">
-                                       
-                                        <img src="assets/images/banner/pyq_banner.webp" loading="lazy" alt="Hero 1">
-                                    </div>
-                                      <div class="hero-image-box mobile-none">
-                                      
-                                        <img src="assets/images/dsektop-banner/telegram_banner.jpg" loading="lazy" alt="Hero 1">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-         
-            <div class="swiper-pagination"></div>
-
-        </div>
-    </section> -->
-    <section class="ef-hero-sec">
-     <div class="swiper heroSwiper">
-
-        <div class="swiper-wrapper">
-
-            <!-- Slide 1 -->
-            <div class="swiper-slide">
-                <div class="hero-wrapper bg_cover overflow-hidden">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-12">
-
-                                <!-- Mobile Image -->
-                                <div class="hero-image-box mobile-only">
-                                    <img src="assets/images/banner/mains_test_series_banner.webp"
-                                        loading="lazy" alt="Hero 1">
-                                </div>
-
-                                <!-- Desktop Image -->
-                                <div class="hero-image-box desktop-only">
-                                    <img src="assets/images/dsektop-banner/mains_test_series_banner.png"
-                                        loading="lazy" alt="Hero 1">
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="swiper-slide">
-                <div class="hero-wrapper bg_cover overflow-hidden">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-12">
-
-                                <!-- Mobile Image -->
-                                <div class="hero-image-box mobile-only">
-                                    <img src="assets/images/banner/telegram_banner.webp"
-                                        loading="lazy" alt="Hero 2">
-                                </div>
-
-                                <!-- Desktop Image -->
-                                <div class="hero-image-box desktop-only">
-                                    <img src="assets/images/dsektop-banner/telegram_banner.png"
-                                        loading="lazy" alt="Hero 2">
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 3 -->
-            <div class="swiper-slide">
-                <div class="hero-wrapper bg_cover overflow-hidden">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-12">
-
-                                <!-- Mobile Image -->
-                                <div class="hero-image-box mobile-only">
-                                    <img src="assets/images/banner/pyq_banner.webp"
-                                        loading="lazy" alt="Hero 3">
-                                </div>
-
-                                <!-- Desktop Image -->
-                                <div class="hero-image-box desktop-only">
-                                    <img src="assets/images/dsektop-banner/pyq_banner.png"
-                                        loading="lazy" alt="Hero 3">
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="hero-image-box mobile-only">
+          <img src="assets/images/banner/mains_test_series_banner.webp" loading="lazy" alt="Hero 1">
         </div>
 
-        <!-- Pagination -->
-        <div class="swiper-pagination"></div>
+        <div class="hero-image-box desktop-only">
+          <img src="assets/images/dsektop-banner/mains_test_series_banner.webp" loading="lazy" alt="Hero 1">
+        </div>
+      </div>
 
-     </div>
-    </section>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="hero-image-box mobile-only">
+          <img src="assets/images/banner/telegram_banner.webp" loading="lazy" alt="Hero 2">
+        </div>
 
+        <div class="hero-image-box desktop-only">
+          <img src="assets/images/dsektop-banner/telegram_banner.webp" loading="lazy" alt="Hero 2">
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="hero-image-box mobile-only">
+          <img src="assets/images/banner/pyq_banner.webp" loading="lazy" alt="Hero 3">
+        </div>
+
+        <div class="hero-image-box desktop-only">
+          <img src="assets/images/dsektop-banner/pyq_banner.webp" loading="lazy" alt="Hero 3">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+    
+    <!-- Navigation -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
 
 
     <!--====== End Hero Section ======-->
@@ -393,7 +311,7 @@
 
             <div class="row g-4 justify-content-center">
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="subject-card text-center p-4">
                         <i class="fa-solid fa-landmark icon mb-3"></i>
                         <h4>History</h4>
@@ -401,7 +319,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="subject-card text-center p-4">
                         <i class="fa-solid fa-palette icon mb-3"></i>
                         <h4>Art and Culture</h4>
@@ -409,7 +327,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="subject-card text-center p-4">
                         <i class="fa-solid fa-scale-balanced icon mb-3"></i>
                         <h4>Polity</h4>
@@ -417,7 +335,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="subject-card text-center p-4">
                         <i class="fa-solid fa-chart-line icon mb-3"></i>
                         <h4>Economy</h4>
@@ -425,7 +343,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="subject-card text-center p-4">
                         <i class="fa-solid fa-leaf icon mb-3"></i>
                         <h4>Environment</h4>
@@ -433,7 +351,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="subject-card text-center p-4">
                         <i class="fa-solid fa-earth-asia icon mb-3"></i>
                         <h4>Geography</h4>
@@ -441,7 +359,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="subject-card text-center p-4">
                         <i class="fa-solid fa-globe icon mb-3"></i>
                         <h4>International Organisations</h4>
@@ -449,7 +367,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="subject-card text-center p-4">
                         <i class="fa-solid fa-map icon mb-3"></i>
                         <h4>Map</h4>
@@ -457,7 +375,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="subject-card text-center p-4">
                         <i class="fa-solid fa-book-open-reader icon mb-3"></i>
                         <h4>CSAT</h4>
@@ -493,7 +411,7 @@
 
     <!-- Subject Cards -->
     <div class="row g-4 justify-content-center">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
         <div class="subject-card text-center p-4">
           <!-- <i class="fa-solid fa-book-open-reader icon mb-3"></i> -->
           <i class="fa-solid fa-book icon mb-3"></i>
@@ -863,10 +781,10 @@
                     </div>
 
                     <!-- Quick Links & Courses -->
-                    <div class="col-lg-5 col-md-6">
-                        <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <!-- <div class="row"> -->
                             <!-- Quick Links -->
-                            <div class="col-6">
+                            <!-- <div class="col-6"> -->
                                 <div class="footer-widget footer-nav-widget mb-40" data-aos="fade-up"
                                     data-aos-duration="1200">
                                     <div class="footer-content">
@@ -880,9 +798,9 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div> -->
                             <!-- Courses -->
-                            <div class="col-6">
+                            <!-- <div class="col-6">
                                 <div class="footer-widget footer-nav-widget mb-40" data-aos="fade-up"
                                     data-aos-duration="1400">
                                     <div class="footer-content">
@@ -896,12 +814,12 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            </div> -->
+                        <!-- </div> -->
                     </div>
 
                     <!-- Newsletter -->
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="footer-widget footer-newsletter-widget mb-40" data-aos="fade-up"
                             data-aos-duration="1600">
                             <div class="footer-content">
@@ -958,10 +876,15 @@
 
     <!--====== Back To Top ======-->
     <!-- <div class="back-to-top"><i class="far fa-arrow-up"></i></div> -->
-    <div class="back-to-top">
+    <!-- <div class="back-to-top">
         <i class="fa-solid fa-arrow-up"></i>
-    </div>
+    </div> -->
+<div class="">
+    <a href="tel:+918903295532" class="floating-call-btn">
+  <i class="fa-solid fa-phone"></i>
+</a>
 
+</div>
     <!--====== Jquery js ======-->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!--====== Bootstrap js ======-->
@@ -978,9 +901,10 @@
     <script src="assets/js/common_script.js"></script>
     <!--====== Main js ======-->
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/file_search_script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
+    <!-- <script>
         var swiper = new Swiper(".heroSwiper", {
             loop: true,
             speed: 1000,
@@ -993,6 +917,24 @@
                 clickable: true,
             },
         });
+    </script> -->
+    <script>
+        var swiper = new Swiper(".heroSwiper", {
+  loop: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
     </script>
 
     <script>
