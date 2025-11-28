@@ -1,531 +1,641 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<head>
-    <!--====== Required meta tags ======-->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--====== Title ======-->
-    <title>Online Course</title>
-    <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
-    <!--====== Google Fonts ======-->
-    <link
-        href="https://fonts.googleapis.com/css2?family=SUSE:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <head>
+        <!--====== Required meta tags ======-->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content>
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--====== Title ======-->
+        <title>Online Course</title>
+        <!--====== Favicon Icon ======-->
+        <link rel="shortcut icon" href="assets/images/favicon.png"
+            type="image/png">
+        <!--====== Google Fonts ======-->
+        <link
+            href="https://fonts.googleapis.com/css2?family=SUSE:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
 
-    <!--====== FontAwesome css ======-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-…(see source)…" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--====== FontAwesome css ======-->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-…(see source)…" crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
 
-    <!--====== Bootstrap css ======-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--====== Slick-popup css ======-->
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <!--====== Magnific-popup css ======-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!--====== Animate css ======-->
-    <link rel="stylesheet" href="assets/css/aos.css">
-    <!--====== Default css ======-->
-    <link rel="stylesheet" href="assets/css/default.css">
-    <!--====== Common Style css ======-->
-    <link rel="stylesheet" href="assets/css/common_style.css">
-    <!--====== Style css ======-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <!--====== Bootstrap css ======-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--====== Slick-popup css ======-->
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <!--====== Magnific-popup css ======-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--====== Animate css ======-->
+        <link rel="stylesheet" href="assets/css/aos.css">
+        <!--====== Default css ======-->
+        <link rel="stylesheet" href="assets/css/default.css">
+        <!--====== Common Style css ======-->
+        <link rel="stylesheet" href="assets/css/common_style.css">
+        <!--====== Style css ======-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-</head>
+    </head>
 
-<body>
-    <!--====== Start Preloader ======-->
-    <div class="preloader">
-        <div class="loader">
-            <img src="assets/images/loader.png" alt="loader">
-        </div>
-    </div><!--====== End Preloader ======-->
-    <!--====== Start Overlay ======-->
-    <div class="offcanvas__overlay"></div>
-    <!--====== Search From ======-->
-    <div class="modal fade search-modal" id="search-modal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form_control" placeholder="Search here" name="search">
-                        <label><i class="fa-solid fa-magnifying-glass"></i></label>
-                    </div>
-                </form>
+    <body>
+        <!--====== Start Preloader ======-->
+        <div class="preloader">
+            <div class="loader">
+                <img src="assets/images/loader.png" alt="loader">
             </div>
+        </div><!--====== End Preloader ======-->
+        <!--====== Start Overlay ======-->
+        <div class="offcanvas__overlay"></div>
+        <!--====== Search From ======-->
+        <div class="modal fade search-modal" id="search-modal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <form>
+                        <div class="form-group">
+                            <input type="search" class="form_control"
+                                placeholder="Search here" name="search">
+                            <label><i
+                                    class="fa-solid fa-magnifying-glass"></i></label>
+                        </div>
+                    </form>
+                </div>
 
-        </div>
-    </div><!--====== Search From ======-->
-    <!--===  Header Area  ===-->
-    <header class="header-area header-one">
-        <!--====  Header Top  ===-->
-        <div class="header-top">
-            <div class="container-fluid">
+            </div>
+        </div><!--====== Search From ======-->
+        <!--===  Header Area  ===-->
+        <header class="header-area header-one">
+            <!--====  Header Top  ===-->
+            <div class="header-top">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!--===  Top Bar Left  ===-->
+                            <div class="top-left ">
+                                <span>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <a
+                                        href="mailto:arohaias@gmail.com">arohaias@gmail.com</a>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    15/A, San Francisco, California
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- </header> -->
+
+            <!--====  Header Navigation  ===-->
+            <div class="header-navigation">
+                <div class="container-fluid">
+                    <!--====  Header Nav Inner  ===-->
+                    <div class="nav-inner-menu">
+                        <!--====  Primary Menu  ===-->
+                        <div class="primary-menu">
+                            <!--====  Site Branding  ===-->
+                            <div class="site-branding">
+                                <a href="index.html" class="brand-logo">
+                                    <img src="./assets/images/logo/logo.png"
+                                        alt="Brand Logo"
+                                        class="img-fluid main-logo">
+                                </a>
+                            </div>
+
+                            <!--=== Edufit Main Menu ===-->
+                            <div class="edufit-nav-menu">
+                                <!--=== Edufit Menu Top ===-->
+                                <div
+                                    class="edufit-menu-top d-flex justify-content-between d-block d-xl-none">
+                                    <div class="site-branding">
+                                        <a href="index.html" class="brand-logo">
+                                            <img
+                                                src="./assets/images/logo/logo.png"
+                                                alt="Brand Logo"
+                                                class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="navbar-close">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                </div>
+
+                                <!--=== Main Menu ===-->
+                                <nav class="main-menu">
+                                    <ul>
+                                        <li class="menu-item"><a
+                                                href="index.html">Home</a></li>
+
+                                        <li class="menu-item has-children"><a
+                                                href="#">Prelims</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">demo
+                                                        one</a></li>
+                                                <li><a href="#">demo
+                                                        two</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item has-children"><a
+                                                href="#">Mains</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Eassy</a></li>
+                                                <li><a href="#">Paper-1</a></li>
+                                                <li><a href="#">Paper-2</a></li>
+                                                <li><a href="#">Paper-3</a></li>
+                                                <li><a href="#">Paper-4</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item has-children"><a
+                                                href="#">Current Affairs</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Prelims
+                                                        Ca</a></li>
+                                                <li><a href="#">Mains
+                                                        Ca</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <!-- <li class="menu-item"><a href="#">IFOS</a></li> -->
+                                        <li class="menu-item has-children"><a
+                                                href="#">Course</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Test
+                                                        Series</a></li>
+                                                <li><a
+                                                        href="#">Mentorship</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a
+                                                href="about.html">About</a></li>
+                                        <li class="menu-item"><a
+                                                href="#">Blog</a></li>
+                                        <li class="menu-item"><a
+                                                href="#">Contact Us</a></li>
+                                    </ul>
+                                </nav>
+
+                                <!--=== Edufit Nav Button ===-->
+                                <!-- <div class="edufit-nav-button d-block d-xl-none mt-40">
+                                <a href="#" class="theme-btn style-one">Log in</a>
+                                <a href="#" class="theme-btn style-two">Register</a>
+                            </div> -->
+                            </div>
+
+                            <!--=== Header Nav Right ===-->
+                            <div class="nav-right-item">
+                                <div class="search-btn">
+                                    <button class="icon" data-bs-toggle="modal"
+                                        data-bs-target="#search-modal">
+                                        <i
+                                            class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </div>
+                                <!-- <div class="nav-button d-none d-xl-block">
+                                <a href="#" class="theme-btn style-one">Log in</a>
+                                <a href="#" class="theme-btn style-two">Register</a>
+                            </div> -->
+
+                                <div class="navbar-toggler">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--====== End Header Area  ======-->
+        <!--====== Start Hero Section ======-->
+
+        <section class="ef-hero-sec">
+            <div class="swiper heroSwiper">
+
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="hero-wrapper bg_cover overflow-hidden"
+                            style="background-image: url(assets/images/hero/hero_bg1.jpg);">
+                            <div class="container">
+                                <div class="row align-items-center g-3">
+                                    <div class="col-lg-6">
+                                        <div class="hero-content">
+                                            <span class="sub-heading"
+                                                data-aos="fade-up">
+                                                <i
+                                                    class="flaticon-mortarboard-1"></i>Learning
+                                                Your Best Skills
+                                            </span>
+                                            <h1 data-aos="fade-up"
+                                                data-aos-delay="100">
+                                                Best Platform to <span
+                                                    class="c1">Improve</span>
+                                                Your
+                                                <span class="c2">Learning
+                                                    Skills</span>.
+                                            </h1>
+                                            <p data-aos="fade-up"
+                                                data-aos-delay="200">
+                                                Edufit offers comprehensive
+                                                courses, interactive quizzes,
+                                                and peer-reviewed assignments.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="hero-image-box">
+                                            <img
+                                                src="assets/images/hero/chart.png"
+                                                class="image_one" loading="lazy"
+                                                alt="chart">
+                                            <div
+                                                class="ef-iconic-box style-one">
+                                                <div class="icon"><i
+                                                        class="fa-solid fa-book-open-reader"></i></div>
+                                                <div class="content">
+                                                    <h5>Online Classes</h5>
+                                                    <p>Flexible online class</p>
+                                                </div>
+                                            </div>
+                                            <img
+                                                src="assets/images/hero/hero-img1.png"
+                                                loading="lazy" alt="Hero 1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="hero-wrapper bg_cover overflow-hidden"
+                            style="background-image: url(assets/images/hero/hero_bg2.jpg);">
+                            <div class="container">
+                                <div class="row align-items-center g-3">
+                                    <div class="col-lg-6">
+                                        <div class="hero-image-box">
+                                            <img
+                                                src="assets/images/hero/chart.png"
+                                                class="image_one" loading="lazy"
+                                                alt="chart">
+                                            <div
+                                                class="ef-iconic-box style-one">
+                                                <div class="icon"><i
+                                                        class="fa-solid fa-book-open-reader"></i></div>
+                                                <div class="content">
+                                                    <h5>Online Classes</h5>
+                                                    <p>Flexible online class</p>
+                                                </div>
+                                            </div>
+                                            <img
+                                                src="assets/images/hero/hero-img1.png"
+                                                loading="lazy" alt="Hero 1">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="hero-content px-5">
+                                            <span class="sub-heading"><i
+                                                    class="flaticon-mortarboard-1"></i>Learn
+                                                Anytime</span>
+                                            <h1 data-aos="fade-left"
+                                                data-aos-delay="100">
+                                                Explore <span
+                                                    class="c1">Online</span>
+                                                Best
+                                                <span class="c2">Courses</span>.
+                                            </h1>
+                                            <p data-aos="fade-left"
+                                                data-aos-delay="200">
+                                                Study anytime, anywhere with
+                                                live classes and downloadable
+                                                resources.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="hero-wrapper bg_cover overflow-hidden"
+                            style="background-image: url(assets/images/hero/hero_bg3.jpg);">
+                            <div class="container">
+                                <div class="row align-items-center g-3">
+                                    <div class="col-lg-6">
+                                        <div class="hero-content">
+                                            <span class="sub-heading"><i
+                                                    class="flaticon-mortarboard-1"></i>Boost
+                                                Knowledge</span>
+                                            <h1 data-aos="fade-right"
+                                                data-aos-delay="100">
+                                                <span class="c2">Smart
+                                                    Learning</span> For Bright
+                                                Future.
+                                            </h1>
+                                            <p data-aos="fade-right"
+                                                data-aos-delay="200">
+                                                Enhance problem-solving skills
+                                                with expert tutors and real-time
+                                                feedback.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="hero-image-box">
+                                            <img
+                                                src="assets/images/hero/chart.png"
+                                                class="image_one" loading="lazy"
+                                                alt="chart">
+                                            <div
+                                                class="ef-iconic-box style-one">
+                                                <div class="icon"><i
+                                                        class="fa-solid fa-book-open-reader"></i></div>
+                                                <div class="content">
+                                                    <h5>Online Classes</h5>
+                                                    <p>Flexible online class</p>
+                                                </div>
+                                            </div>
+                                            <img
+                                                src="assets/images/hero/hero-img1.png"
+                                                loading="lazy" alt="Hero 1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Swiper Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+        <!--====== End Hero Section ======-->
+        <!--====== Start About Section ======-->
+        <section class="ef-about-sec pt-130 pb-80">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6">
+                        <!--====== About Image Box =====-->
+                        <div class="edufit-image-box style-one mb-50">
+                            <div class="shape shape_one">
+                                <span><img src="assets/images/about/shape1.png"
+                                        alt="shape"></span>
+                            </div>
+                            <div class="shape shape_two">
+                                <span><img src="assets/images/about/shape2.png"
+                                        alt="shape"></span>
+                            </div>
+                            <!--====== Edufit Image =====-->
+                            <div class="edufit-img image_one" data-aos="fade-up"
+                                data-aos-delay="10"
+                                data-aos-duration="700">
+                                <img src="assets/images/about/about-img1.jpg"
+                                    alt="About Image">
+                            </div>
+
+                            <!--====== Iconic Box =====-->
+                            <div class="ef-iconic-box style-one"
+                                data-aos="fade-right" data-aos-delay="10"
+                                data-aos-duration="700">
+                                <div class="icon">
+                                    <i class="fa-solid fa-book-open-reader"></i>
+                                </div>
+                                <div class="content">
+                                    <h5>2.5K</h5>
+                                    <p>Positive Review</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <!--====== Section Content Box =====-->
+                        <div class="edufit-content-box style-one mb-50">
+                            <!--====== Section Title =====-->
+                            <div class="section-title style-one mb-30"
+                                data-aos="fade-up" data-aos-delay="10"
+                                data-aos-duration="800">
+                                <span class="sub-heading"><i
+                                        class="fa-solid fa-graduation-cap"></i>
+                                    About us</span>
+                                <h2>Why We Started IAS
+                                    <span>AROHA</span>IAS</h2>
+                            </div>
+                            <p data-aos="fade-up" data-aos-delay="20"
+                                data-aos-duration="1000">
+                                Experience personalized courses and resources at
+                                our Online Learning Hub Lab designed to
+                                enhance your skills and drive growth.
+                            </p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!--====== Iconic Box =====-->
+                                    <div class="ef-iconic-box style-two mb-40"
+                                        data-aos="fade-up" data-aos-delay="30"
+                                        data-aos-duration="1200">
+                                        <div class="icon">
+                                            <i
+                                                class="fa-solid fa-chalkboard-teacher"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h5>Online Classes</h5>
+                                            <p>Flexible online class</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!--====== Iconic Box =====-->
+                                    <div class="ef-iconic-box style-two mb-40"
+                                        data-aos="fade-up" data-aos-delay="40"
+                                        data-aos-duration="1400">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-headset"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h5>Education Support</h5>
+                                            <p>Comprehensive education</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--====== About Button Box =====-->
+                            <div
+                                class="about-button-box d-flex align-items-center"
+                                data-aos="fade-up" data-aos-delay="50"
+                                data-aos-duration="1600">
+                                <div class="about-button">
+                                    <a href="#"
+                                        class="theme-btn style-one">Learn
+                                        More</a>
+                                </div>
+                                <div class="author-box style-one">
+                                    <div class="author-thumb">
+                                        <img
+                                            src="assets/images/about/author1.jpg"
+                                            alt="Author Image">
+                                    </div>
+                                    <div class="author-info">
+                                        <h5>David Liam</h5>
+                                        <span class="position">CEO &
+                                            Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== End About Section ======-->
+        <!--====== Start Category Section ======-->
+        <section class="ef-category-sec gray-bg pt-120 pb-90">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <!--===  Top Bar Left  ===-->
-                        <div class="top-left ">
-                            <span>
-                                <i class="fa-solid fa-envelope"></i>
-                                <a href="mailto:info@demo.com">info@demo.com</a>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-location-dot"></i>
-                                15/A, San Francisco, California
-                            </span>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- </header> -->
-
-        <!--====  Header Navigation  ===-->
-        <div class="header-navigation">
-            <div class="container-fluid">
-                <!--====  Header Nav Inner  ===-->
-                <div class="nav-inner-menu">
-                    <!--====  Primary Menu  ===-->
-                    <div class="primary-menu">
-                        <!--====  Site Branding  ===-->
-                        <div class="site-branding">
-                            <a href="index.html" class="brand-logo">
-                                <img src="./assets/images/logo/logo.png" alt="Brand Logo" class="img-fluid main-logo">
-                            </a>
-                        </div>
-
-                        <!--=== Edufit Main Menu ===-->
-                        <div class="edufit-nav-menu">
-                            <!--=== Edufit Menu Top ===-->
-                            <div class="edufit-menu-top d-flex justify-content-between d-block d-xl-none">
-                                <div class="site-branding">
-                                    <a href="index.html" class="brand-logo">
-                                        <img src="./assets/images/logo/logo.png" alt="Brand Logo" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="navbar-close">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                            </div>
-
-                            <!--=== Main Menu ===-->
-                            <nav class="main-menu">
-                                <ul>
-                                    <li class="menu-item"><a href="index.html">Home</a></li>
-
-                                    <li class="menu-item has-children"><a href="#">Prelims</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">demo one</a></li>
-                                            <li><a href="#">demo two</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#">Mains</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Eassy</a></li>
-                                            <li><a href="#">Paper-1</a></li>
-                                            <li><a href="#">Paper-2</a></li>
-                                            <li><a href="#">Paper-3</a></li>
-                                            <li><a href="#">Paper-4</a></li>
-
-
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#">Current Affairs</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Prelims Ca</a></li>
-                                            <li><a href="#">Mains Ca</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <!-- <li class="menu-item"><a href="#">IFOS</a></li> -->
-                                    <li class="menu-item has-children"><a href="#">Course</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Test Series</a></li>
-                                            <li><a href="#">Mentorship</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="about.html">About</a></li>
-                                    <li class="menu-item"><a href="#">Blog</a></li>
-                                    <li class="menu-item"><a href="#">Contact Us</a></li>
-                                </ul>
-                            </nav>
-
-                            <!--=== Edufit Nav Button ===-->
-                            <!-- <div class="edufit-nav-button d-block d-xl-none mt-40">
-                                <a href="#" class="theme-btn style-one">Log in</a>
-                                <a href="#" class="theme-btn style-two">Register</a>
-                            </div> -->
-                        </div>
-
-                        <!--=== Header Nav Right ===-->
-                        <div class="nav-right-item">
-                            <div class="search-btn">
-                                <button class="icon" data-bs-toggle="modal" data-bs-target="#search-modal">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </button>
-                            </div>
-                            <!-- <div class="nav-button d-none d-xl-block">
-                                <a href="#" class="theme-btn style-one">Log in</a>
-                                <a href="#" class="theme-btn style-two">Register</a>
-                            </div> -->
-
-                            <div class="navbar-toggler">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!--====== End Header Area  ======-->
-    <!--====== Start Hero Section ======-->
-
-    <section class="ef-hero-sec">
-        <div class="swiper heroSwiper">
-
-            <div class="swiper-wrapper">
-
-                <!-- Slide 1 -->
-                <div class="swiper-slide">
-                    <div class="hero-wrapper bg_cover overflow-hidden"
-                        style="background-image: url(assets/images/hero/hero_bg1.jpg);">
-                        <div class="container">
-                            <div class="row align-items-center g-3">
-                                <div class="col-lg-6">
-                                    <div class="hero-content">
-                                        <span class="sub-heading" data-aos="fade-up">
-                                            <i class="flaticon-mortarboard-1"></i>Learning Your Best Skills
-                                        </span>
-                                        <h1 data-aos="fade-up" data-aos-delay="100">
-                                            Best Platform to <span class="c1">Improve</span> Your
-                                            <span class="c2">Learning Skills</span>.
-                                        </h1>
-                                        <p data-aos="fade-up" data-aos-delay="200">
-                                            Edufit offers comprehensive courses, interactive quizzes,
-                                            and peer-reviewed assignments.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="hero-image-box">
-                                        <img src="assets/images/hero/chart.png" class="image_one" loading="lazy"
-                                            alt="chart">
-                                        <div class="ef-iconic-box style-one">
-                                            <div class="icon"><i class="fa-solid fa-book-open-reader"></i></div>
-                                            <div class="content">
-                                                <h5>Online Classes</h5>
-                                                <p>Flexible online class</p>
-                                            </div>
-                                        </div>
-                                        <img src="assets/images/hero/hero-img1.png" loading="lazy" alt="Hero 1">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="swiper-slide">
-                    <div class="hero-wrapper bg_cover overflow-hidden"
-                        style="background-image: url(assets/images/hero/hero_bg2.jpg);">
-                        <div class="container">
-                            <div class="row align-items-center g-3">
-                                <div class="col-lg-6">
-                                    <div class="hero-image-box">
-                                        <img src="assets/images/hero/chart.png" class="image_one" loading="lazy"
-                                            alt="chart">
-                                        <div class="ef-iconic-box style-one">
-                                            <div class="icon"><i class="fa-solid fa-book-open-reader"></i></div>
-                                            <div class="content">
-                                                <h5>Online Classes</h5>
-                                                <p>Flexible online class</p>
-                                            </div>
-                                        </div>
-                                        <img src="assets/images/hero/hero-img1.png" loading="lazy" alt="Hero 1">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="hero-content px-5">
-                                        <span class="sub-heading"><i class="flaticon-mortarboard-1"></i>Learn
-                                            Anytime</span>
-                                        <h1 data-aos="fade-left" data-aos-delay="100">
-                                            Explore <span class="c1">Online</span> Best
-                                            <span class="c2">Courses</span>.
-                                        </h1>
-                                        <p data-aos="fade-left" data-aos-delay="200">
-                                            Study anytime, anywhere with live classes and downloadable resources.
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="swiper-slide">
-                    <div class="hero-wrapper bg_cover overflow-hidden"
-                        style="background-image: url(assets/images/hero/hero_bg3.jpg);">
-                        <div class="container">
-                            <div class="row align-items-center g-3">
-                                <div class="col-lg-6">
-                                    <div class="hero-content">
-                                        <span class="sub-heading"><i class="flaticon-mortarboard-1"></i>Boost
-                                            Knowledge</span>
-                                        <h1 data-aos="fade-right" data-aos-delay="100">
-                                            <span class="c2">Smart Learning</span> For Bright Future.
-                                        </h1>
-                                        <p data-aos="fade-right" data-aos-delay="200">
-                                            Enhance problem-solving skills with expert tutors and real-time feedback.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="hero-image-box">
-                                        <img src="assets/images/hero/chart.png" class="image_one" loading="lazy"
-                                            alt="chart">
-                                        <div class="ef-iconic-box style-one">
-                                            <div class="icon"><i class="fa-solid fa-book-open-reader"></i></div>
-                                            <div class="content">
-                                                <h5>Online Classes</h5>
-                                                <p>Flexible online class</p>
-                                            </div>
-                                        </div>
-                                        <img src="assets/images/hero/hero-img1.png" loading="lazy" alt="Hero 1">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Swiper Pagination -->
-            <div class="swiper-pagination"></div>
-
-        </div>
-    </section>
-
-
-    <!--====== End Hero Section ======-->
-    <!--====== Start About Section ======-->
-    <section class="ef-about-sec pt-130 pb-80">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6">
-                    <!--====== About Image Box =====-->
-                    <div class="edufit-image-box style-one mb-50">
-                        <div class="shape shape_one">
-                            <span><img src="assets/images/about/shape1.png" alt="shape"></span>
-                        </div>
-                        <div class="shape shape_two">
-                            <span><img src="assets/images/about/shape2.png" alt="shape"></span>
-                        </div>
-                        <!--====== Edufit Image =====-->
-                        <div class="edufit-img image_one" data-aos="fade-up" data-aos-delay="10"
-                            data-aos-duration="700">
-                            <img src="assets/images/about/about-img1.jpg" alt="About Image">
-                        </div>
-
-                        <!--====== Iconic Box =====-->
-                        <div class="ef-iconic-box style-one" data-aos="fade-right" data-aos-delay="10"
-                            data-aos-duration="700">
-                            <div class="icon">
-                                <i class="fa-solid fa-book-open-reader"></i>
-                            </div>
-                            <div class="content">
-                                <h5>2.5K</h5>
-                                <p>Positive Review</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <!--====== Section Content Box =====-->
-                    <div class="edufit-content-box style-one mb-50">
-                        <!--====== Section Title =====-->
-                        <div class="section-title style-one mb-30" data-aos="fade-up" data-aos-delay="10"
+                        <!--=== Section Title ===-->
+                        <div class="section-title style-one text-center mb-40"
+                            data-aos="fade-up" data-aos-delay="10"
                             data-aos-duration="800">
-                            <span class="sub-heading"><i class="fa-solid fa-graduation-cap"></i> About us</span>
-                            <h2>Why We Started IAS <span>AROHA</span>IAS</h2>
+                            <span class="sub-heading"><i
+                                    class="fa-solid fa-graduation-cap"></i>
+                                Category</span>
+                            <h2>Educational Resources
+                                <br><span>Category</span></h2>
                         </div>
-                        <p data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000">
-                            Experience personalized courses and resources at our Online Learning Hub Lab designed to
-                            enhance your skills and drive growth.
-                        </p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!--====== Iconic Box =====-->
-                                <div class="ef-iconic-box style-two mb-40" data-aos="fade-up" data-aos-delay="30"
-                                    data-aos-duration="1200">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-chalkboard-teacher"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h5>Online Classes</h5>
-                                        <p>Flexible online class</p>
-                                    </div>
-                                </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center g-4">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="ef-category-item style-one bg_one mb-30"
+                            data-aos="fade-up" data-aos-delay="15"
+                            data-aos-duration="900">
+                            <div class="icon"><i
+                                    class="fas fa-hands-helping"></i>
+
                             </div>
-                            <div class="col-md-6">
-                                <!--====== Iconic Box =====-->
-                                <div class="ef-iconic-box style-two mb-40" data-aos="fade-up" data-aos-delay="40"
-                                    data-aos-duration="1400">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-headset"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h5>Education Support</h5>
-                                        <p>Comprehensive education</p>
-                                    </div>
-                                </div>
+
+                            <div class="content">
+                                <h5>Non Profit Initiative</h5>
                             </div>
                         </div>
-                        <!--====== About Button Box =====-->
-                        <div class="about-button-box d-flex align-items-center" data-aos="fade-up" data-aos-delay="50"
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="ef-category-item style-one bg_two mb-30"
+                            data-aos="fade-up" data-aos-delay="20"
+                            data-aos-duration="1000">
+                            <div class="icon"><i
+                                    class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="content">
+                                <h5>Comprehensive syllabus coverage</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="ef-category-item style-one bg_three mb-30"
+                            data-aos="fade-up" data-aos-delay="25"
+                            data-aos-duration="1100">
+                            <div class="icon"><i
+                                    class="fa-solid fa-clipboard-check"></i></div>
+                            <div class="content">
+                                <h5>Regular Test Practice</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="ef-category-item style-one bg_four mb-30"
+                            data-aos="fade-up" data-aos-delay="30"
+                            data-aos-duration="1200">
+                            <div class="icon"><i
+                                    class="fa-solid fa-user-group"></i></div>
+                            <div class="content">
+                                <h5>Personal Guidance / Counseling</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="ef-category-item style-one bg_five mb-30"
+                            data-aos="fade-up" data-aos-delay="35"
+                            data-aos-duration="1300">
+                            <div class="icon"><i
+                                    class="fa-solid fa-book-open-reader"></i></div>
+                            <div class="content">
+                                <h5>Offline & Online</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="ef-category-item style-one bg_six mb-30"
+                            data-aos="fade-up" data-aos-delay="40"
+                            data-aos-duration="1400">
+                            <div class="icon"><i
+                                    class="fa-solid fa-laptop-file"></i></div>
+                            <div class="content">
+                                <h5>Digitally interactive Classroom</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="ef-category-item style-one bg_seven mb-30"
+                            data-aos="fade-up" data-aos-delay="45"
+                            data-aos-duration="1500">
+                            <div class="icon"><i
+                                    class="fa-solid fa-award"></i></div>
+                            <div class="content">
+                                <h5>This is the heading</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="ef-category-item style-one bg_eight mb-30"
+                            data-aos="fade-up" data-aos-delay="50"
                             data-aos-duration="1600">
-                            <div class="about-button">
-                                <a href="#" class="theme-btn style-one">Learn More</a>
-                            </div>
-                            <div class="author-box style-one">
-                                <div class="author-thumb">
-                                    <img src="assets/images/about/author1.jpg" alt="Author Image">
-                                </div>
-                                <div class="author-info">
-                                    <h5>David Liam</h5>
-                                    <span class="position">CEO & Founder</span>
-                                </div>
+                            <div class="icon"><i
+                                    class="fa-solid fa-photo-film"></i></div>
+                            <div class="content">
+                                <h5>Video Library</h5>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--====== End About Section ======-->
-    <!--====== Start Category Section ======-->
-    <section class="ef-category-sec gray-bg pt-120 pb-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!--=== Section Title ===-->
-                    <div class="section-title style-one text-center mb-40" data-aos="fade-up" data-aos-delay="10"
-                        data-aos-duration="800">
-                        <span class="sub-heading"><i class="fa-solid fa-graduation-cap"></i> Category</span>
-                        <h2>Educational Resources <br><span>Category</span></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center g-4">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="ef-category-item style-one bg_one mb-30" data-aos="fade-up" data-aos-delay="15"
-                        data-aos-duration="900">
-                        <div class="icon"><i class="fas fa-hands-helping"></i>
-
-                        </div>
-
-                        <div class="content">
-                            <h5>Non Profit Initiative</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="ef-category-item style-one bg_two mb-30" data-aos="fade-up" data-aos-delay="20"
-                        data-aos-duration="1000">
-                        <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                        <div class="content">
-                            <h5>Comprehensive syllabus coverage</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="ef-category-item style-one bg_three mb-30" data-aos="fade-up" data-aos-delay="25"
-                        data-aos-duration="1100">
-                        <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div>
-                        <div class="content">
-                            <h5>Regular Test Practice</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="ef-category-item style-one bg_four mb-30" data-aos="fade-up" data-aos-delay="30"
-                        data-aos-duration="1200">
-                        <div class="icon"><i class="fa-solid fa-user-group"></i></div>
-                        <div class="content">
-                            <h5>Personal Guidance / Counseling</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="ef-category-item style-one bg_five mb-30" data-aos="fade-up" data-aos-delay="35"
-                        data-aos-duration="1300">
-                        <div class="icon"><i class="fa-solid fa-book-open-reader"></i></div>
-                        <div class="content">
-                            <h5>Offline & Online</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="ef-category-item style-one bg_six mb-30" data-aos="fade-up" data-aos-delay="40"
-                        data-aos-duration="1400">
-                        <div class="icon"><i class="fa-solid fa-laptop-file"></i></div>
-                        <div class="content">
-                            <h5>Digitally interactive Classroom</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="ef-category-item style-one bg_seven mb-30" data-aos="fade-up" data-aos-delay="45"
-                        data-aos-duration="1500">
-                        <div class="icon"><i class="fa-solid fa-award"></i></div>
-                        <div class="content">
-                            <h5>This is the heading</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="ef-category-item style-one bg_eight mb-30" data-aos="fade-up" data-aos-delay="50"
-                        data-aos-duration="1600">
-                        <div class="icon"><i class="fa-solid fa-photo-film"></i></div>
-                        <div class="content">
-                            <h5>Video Library</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!--====== End Category Section ======-->
-    <!-----why-learn-section------->
-    <!-- <section class="why-learn-section">
+        <!--====== End Category Section ======-->
+        <!-----why-learn-section------->
+        <!-- <section class="why-learn-section">
         <div class="container">
             <div class="row align-items-center">
 
@@ -611,74 +721,94 @@
         </div>
     </section> -->
 
-    <section class="study-materials-section">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="fw-bold">Study Materials</h2>
-                <p class="text-muted">Access your study materials directly — view online only, download disabled.</p>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <ul class="list-group shadow-sm">
-                        <!-- PDF Item 1 -->
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Indian Polity - Notes
-                                (PDF)</span>
-                            <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-                                data-pdf="assets/pdfs/polity.pdf">View</button>
-                        </li>
-                        <!-- PDF Item 2 -->
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Economy - Summary (PDF)</span>
-                            <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-                                data-pdf="assets/pdfs/economy.pdf">View</button>
-                        </li>
-                        <!-- PDF Item 3 -->
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Modern History - Important Dates
-                                (PDF)</span>
-                            <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-                                data-pdf="assets/pdfs/history.pdf">View</button>
-                        </li>
-                    </ul>
+        <section class="study-materials-section">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Study Materials</h2>
+                    <p class="text-muted">Access your study materials directly —
+                        view online only, download disabled.</p>
                 </div>
-            </div>
 
-            <!-- Modal to View PDF -->
-            <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="pdfModalLabel">View Study Material</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body p-0">
-                            <iframe id="pdfFrame" src="" frameborder="0" style="width:100%; height:80vh;"
-                                allow="fullscreen"></iframe>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <ul class="list-group shadow-sm">
+                            <!-- PDF Item 1 -->
+                            <li
+                                class="list-group-item d-flex justify-content-between align-items-center">
+                                <span><i
+                                        class="fa-solid fa-file-pdf text-danger me-2"></i>
+                                    Indian Polity - Notes
+                                    (PDF)</span>
+                                <button
+                                    class="btn btn-outline-primary btn-sm view-pdf-btn"
+                                    data-pdf="assets/pdfs/polity.pdf">View</button>
+                            </li>
+                            <!-- PDF Item 2 -->
+                            <li
+                                class="list-group-item d-flex justify-content-between align-items-center">
+                                <span><i
+                                        class="fa-solid fa-file-pdf text-danger me-2"></i>
+                                    Economy - Summary (PDF)</span>
+                                <button
+                                    class="btn btn-outline-primary btn-sm view-pdf-btn"
+                                    data-pdf="assets/pdfs/economy.pdf">View</button>
+                            </li>
+                            <!-- PDF Item 3 -->
+                            <li
+                                class="list-group-item d-flex justify-content-between align-items-center">
+                                <span><i
+                                        class="fa-solid fa-file-pdf text-danger me-2"></i>
+                                    Modern History - Important Dates
+                                    (PDF)</span>
+                                <button
+                                    class="btn btn-outline-primary btn-sm view-pdf-btn"
+                                    data-pdf="assets/pdfs/history.pdf">View</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Modal to View PDF -->
+                <div class="modal fade" id="pdfModal" tabindex="-1"
+                    aria-labelledby="pdfModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="pdfModalLabel">View
+                                    Study Material</h5>
+                                <button type="button" class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body p-0">
+                                <iframe id="pdfFrame" src frameborder="0"
+                                    style="width:100%; height:80vh;"
+                                    allow="fullscreen"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+        </section>
 
-        </div>
-    </section>
-
-    <!------End why-learn-section------->
-    <!--====== Start Courses Section ======-->
-    <section class="ef-courses-sec pt-120 pb-130 gray-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!--=== Section Title ===-->
-                    <div class="section-title style-one text-center mb-40" data-aos="fade-up" data-aos-delay="10"
-                        data-aos-duration="800">
-                        <span class="sub-heading"><i class="flaticon-mortarboard-1"></i>Courses</span>
-                        <h2>Explore Our <span>Courses</span></h2>
+        <!------End why-learn-section------->
+        <!--====== Start Courses Section ======-->
+        <section class="ef-courses-sec pt-120 pb-130 gray-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!--=== Section Title ===-->
+                        <div class="section-title style-one text-center mb-40"
+                            data-aos="fade-up" data-aos-delay="10"
+                            data-aos-duration="800">
+                            <span class="sub-heading"><i
+                                    class="flaticon-mortarboard-1"></i>Courses</span>
+                            <h2>Explore Our <span>Courses</span></h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- <div class="row justify-content-center">
+                <!-- <div class="row justify-content-center">
                 <div class="col-xl-4 col-md-6 col-sm-12">
                     <div class="ef-course-grid-item style-one mb-30" data-aos="fade-up" data-aos-delay="15"
                         data-aos-duration="900">
@@ -798,156 +928,206 @@
                 </div>
 
             </div> -->
-            <div class="row g-4 justify-content-center">
-                <!-- Course Card 1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="course-card">
-                        <img src="assets/images/course/1.png" alt="IAS/IPS Coaching" class="img-fluid course-img">
-                        <div class="course-content text-center p-4">
-                            <h5 class="fw-bold">UPSC – IAS / IPS COACHING</h5>
-                            <a href="#" class="view-course">View Course »</a>
+                <div class="row g-4 justify-content-center">
+                    <!-- Course Card 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="course-card">
+                            <img src="assets/images/course/1.png"
+                                alt="IAS/IPS Coaching"
+                                class="img-fluid course-img">
+                            <div class="course-content text-center p-4">
+                                <h5 class="fw-bold">UPSC – IAS / IPS
+                                    COACHING</h5>
+                                <a href="#" class="view-course">View Course
+                                    »</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="course-card">
+                            <img src="assets/images/course/2.png"
+                                alt="Campus Recruitment Training"
+                                class="img-fluid course-img">
+                            <div class="course-content text-center p-4">
+                                <h5 class="fw-bold">CAMPUS RECRUITMENT
+                                    TRAINING</h5>
+                                <a href="#" class="view-course">View Course
+                                    »</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="course-card">
+                            <img src="assets/images/course/3.png"
+                                alt="IELTS Training"
+                                class="img-fluid course-img">
+                            <div class="course-content text-center p-4">
+                                <h5 class="fw-bold">IELTS TRAINING</h5>
+                                <a href="#" class="view-course">View Course
+                                    »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="course-button text-center mt-3"
+                            data-aos="fade-up" data-aos-delay="45"
+                            data-aos-duration="1500">
+                            <a href="../pages/course-details.html"
+                                class="theme-btn style-one">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== End Courses Section ======-->
+        <!--====== Start Why Choose Section ======-->
+        <section class="ef-why-choose-sec pt-120 pb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Section Title -->
+                        <div class="section-title style-one text-center mb-40"
+                            data-aos="fade-up" data-aos-delay="10"
+                            data-aos-duration="800">
+                            <span class="sub-heading"><i
+                                    class="fa-solid fa-graduation-cap"></i> Why
+                                Choose us</span>
+                            <h2>Why Trust Us with Your <span>Learning</span>
+                                Journey</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center g-4">
+                    <!-- Iconic Box 1 -->
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <div class="ef-iconic-box style-three mb-40 h-100"
+                            data-aos="fade-up" data-aos-delay="10"
+                            data-aos-duration="800">
+                            <div class="shape line_one"><span><img
+                                        src="assets/images/gallery/line2.png"
+                                        alt="line"></span>
+                            </div>
+                            <div class="shape line_two"><span><img
+                                        src="assets/images/gallery/line3.png"
+                                        alt="line"></span>
+                            </div>
+                            <div class="icon"><i
+                                    class="fa-solid fa-wallet"></i></div>
+                            <div class="content">
+                                <h5>Lower Learning Cost</h5>
+                                <p>Affordable education without compromising on
+                                    quality.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Iconic Box 2 -->
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <div class="ef-iconic-box style-three mb-40 h-100"
+                            data-aos="fade-up" data-aos-delay="15"
+                            data-aos-duration="900">
+                            <div class="shape line_one"><span><img
+                                        src="assets/images/gallery/line2.png"
+                                        alt="line"></span>
+                            </div>
+                            <div class="shape line_two"><span><img
+                                        src="assets/images/gallery/line3.png"
+                                        alt="line"></span>
+                            </div>
+                            <div class="icon"><i
+                                    class="fa-solid fa-layer-group"></i></div>
+                            <div class="content">
+                                <h5>Different Course Variation</h5>
+                                <p>Diverse courses to suit every learning
+                                    style.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Iconic Box 3 -->
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <div class="ef-iconic-box style-three mb-40 h-100"
+                            data-aos="fade-up" data-aos-delay="20"
+                            data-aos-duration="1000">
+                            <div class="shape line_one"><span><img
+                                        src="assets/images/gallery/line2.png"
+                                        alt="line"></span>
+                            </div>
+                            <div class="shape line_two"><span><img
+                                        src="assets/images/gallery/line3.png"
+                                        alt="line"></span>
+                            </div>
+                            <div class="icon"><i
+                                    class="fa-solid fa-users"></i></div>
+                            <div class="content">
+                                <h5>Trusted By Thousands</h5>
+                                <p>Millions of learners trust our courses
+                                    globally.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Iconic Box 4 -->
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <div class="ef-iconic-box style-three mb-40 h-100"
+                            data-aos="fade-up" data-aos-delay="25"
+                            data-aos-duration="1100">
+                            <div class="shape line_one"><span><img
+                                        src="assets/images/gallery/line2.png"
+                                        alt="line"></span>
+                            </div>
+                            <div class="shape line_two"><span><img
+                                        src="assets/images/gallery/line3.png"
+                                        alt="line"></span>
+                            </div>
+                            <div class="icon"><i
+                                    class="fa-solid fa-book-open"></i></div>
+                            <div class="content">
+                                <h5>Suitable Learning</h5>
+                                <p>Courses designed for your pace and skill
+                                    level.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== End Why Choose Section ======-->
+        <!--====== Start Instructor Section ======-->
+        <section class="ef-instructor-sec primary-black-bg pt-90 pb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Section Title -->
+                        <div
+                            class="section-title style-one text-white text-center mb-40"
+                            data-aos="fade-up"
+                            data-aos-delay="10" data-aos-duration="800">
+                            <span class="sub-heading"><i
+                                    class="fa-solid fa-graduation-cap"></i>
+                                Programe</span>
+                            <h2>Five Step Practice <span>Programe</span></h2>
+                            <p>
+                                Want to get a job this year?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-12 text-center">
+                        <div class="five_step">
+                            <img src="assets/images/five_step.png"
+                                alt="Five Step Learning Process"
+                                class="img-fluid"
+                                loading="lazy">
                         </div>
                     </div>
                 </div>
 
-                <!-- Course Card 2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="course-card">
-                        <img src="assets/images/course/2.png" alt="Campus Recruitment Training"
-                            class="img-fluid course-img">
-                        <div class="course-content text-center p-4">
-                            <h5 class="fw-bold">CAMPUS RECRUITMENT TRAINING</h5>
-                            <a href="#" class="view-course">View Course »</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Course Card 3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="course-card">
-                        <img src="assets/images/course/3.png" alt="IELTS Training" class="img-fluid course-img">
-                        <div class="course-content text-center p-4">
-                            <h5 class="fw-bold">IELTS TRAINING</h5>
-                            <a href="#" class="view-course">View Course »</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="course-button text-center mt-3" data-aos="fade-up" data-aos-delay="45"
-                        data-aos-duration="1500">
-                        <a href="../pages/course-details.html" class="theme-btn style-one">Explore More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== End Courses Section ======-->
-    <!--====== Start Why Choose Section ======-->
-    <section class="ef-why-choose-sec pt-120 pb-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Section Title -->
-                    <div class="section-title style-one text-center mb-40" data-aos="fade-up" data-aos-delay="10"
-                        data-aos-duration="800">
-                        <span class="sub-heading"><i class="fa-solid fa-graduation-cap"></i> Why Choose us</span>
-                        <h2>Why Trust Us with Your <span>Learning</span> Journey</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center g-4">
-                <!-- Iconic Box 1 -->
-                <div class="col-xl-3 col-md-6 col-sm-12">
-                    <div class="ef-iconic-box style-three mb-40 h-100" data-aos="fade-up" data-aos-delay="10"
-                        data-aos-duration="800">
-                        <div class="shape line_one"><span><img src="assets/images/gallery/line2.png" alt="line"></span>
-                        </div>
-                        <div class="shape line_two"><span><img src="assets/images/gallery/line3.png" alt="line"></span>
-                        </div>
-                        <div class="icon"><i class="fa-solid fa-wallet"></i></div>
-                        <div class="content">
-                            <h5>Lower Learning Cost</h5>
-                            <p>Affordable education without compromising on quality.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Iconic Box 2 -->
-                <div class="col-xl-3 col-md-6 col-sm-12">
-                    <div class="ef-iconic-box style-three mb-40 h-100" data-aos="fade-up" data-aos-delay="15"
-                        data-aos-duration="900">
-                        <div class="shape line_one"><span><img src="assets/images/gallery/line2.png" alt="line"></span>
-                        </div>
-                        <div class="shape line_two"><span><img src="assets/images/gallery/line3.png" alt="line"></span>
-                        </div>
-                        <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
-                        <div class="content">
-                            <h5>Different Course Variation</h5>
-                            <p>Diverse courses to suit every learning style.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Iconic Box 3 -->
-                <div class="col-xl-3 col-md-6 col-sm-12">
-                    <div class="ef-iconic-box style-three mb-40 h-100" data-aos="fade-up" data-aos-delay="20"
-                        data-aos-duration="1000">
-                        <div class="shape line_one"><span><img src="assets/images/gallery/line2.png" alt="line"></span>
-                        </div>
-                        <div class="shape line_two"><span><img src="assets/images/gallery/line3.png" alt="line"></span>
-                        </div>
-                        <div class="icon"><i class="fa-solid fa-users"></i></div>
-                        <div class="content">
-                            <h5>Trusted By Thousands</h5>
-                            <p>Millions of learners trust our courses globally.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Iconic Box 4 -->
-                <div class="col-xl-3 col-md-6 col-sm-12">
-                    <div class="ef-iconic-box style-three mb-40 h-100" data-aos="fade-up" data-aos-delay="25"
-                        data-aos-duration="1100">
-                        <div class="shape line_one"><span><img src="assets/images/gallery/line2.png" alt="line"></span>
-                        </div>
-                        <div class="shape line_two"><span><img src="assets/images/gallery/line3.png" alt="line"></span>
-                        </div>
-                        <div class="icon"><i class="fa-solid fa-book-open"></i></div>
-                        <div class="content">
-                            <h5>Suitable Learning</h5>
-                            <p>Courses designed for your pace and skill level.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== End Why Choose Section ======-->
-    <!--====== Start Instructor Section ======-->
-    <section class="ef-instructor-sec primary-black-bg pt-90 pb-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Section Title -->
-                    <div class="section-title style-one text-white text-center mb-40" data-aos="fade-up"
-                        data-aos-delay="10" data-aos-duration="800">
-                        <span class="sub-heading"><i class="fa-solid fa-graduation-cap"></i> Programe</span>
-                        <h2>Five Step Practice <span>Programe</span></h2>
-                        <p>
-                            Want to get a job this year?
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-md-12 text-center">
-                    <div class="five_step">
-                        <img src="assets/images/five_step.png" alt="Five Step Learning Process" class="img-fluid"
-                            loading="lazy">
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="row">
+                <!-- <div class="row">
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="ef-instructor-item style-one mb-30" data-aos="fade-up" data-aos-delay="15"
                         data-aos-duration="900">
@@ -1025,407 +1205,531 @@
                     </div>
                 </div>
             </div> -->
-        </div>
-    </section>
-    <!--====== End Instructor Section ======-->
-
-    <!----Connect-section------->
-    <section class="connect-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <!-- Left Content -->
-                <div class="col-lg-6">
-                    <div class="connect-content" data-aos="fade-right" data-aos-duration="800">
-
-                        <div class="connect-box d-flex align-items-center gap-3">
-                            <div class="connect-icon">
-                                <i class="fa-brands fa-telegram fa-3x text-telegram"></i>
-                            </div>
-                            <div class="connect-text">
-                                <h3 class="fw-bold connect-heading mb-0">
-                                    Connect with us <br>
-                                    <span class="text-telegram">on Telegram!</span>
-                                </h3>
-                            </div>
-                        </div>
-
-
-                        <p class="mt-3">
-                            <strong>Get immediate updates</strong> on courses, exams, and other announcements directly
-                            on Telegram!
-                        </p>
-                        <a href="https://t.me/YourTelegramChannel" target="_blank" class="btn btn-telegram mt-3">
-                            <i class="fa-brands fa-telegram"></i> Join on Telegram
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Right Image -->
-                <div class="col-lg-6 text-center mt-4 mt-lg-0" data-aos="fade-left" data-aos-duration="900">
-                    <img src="https://cdn2.umnico.com/production/landing/en-article49.png" alt="Telegram Connect"
-                        class="img-fluid rounded-4">
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!--====== End Instructor Section ======-->
 
-    <!----End Connect-section------>
-    <!--====== Start Testimonial Section ======-->
-    <section class="ef-testimonial-sec gray-bg pt-120 pb-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Section Title -->
-                    <div class="section-title style-one text-center mb-40" data-aos="fade-up" data-aos-delay="10"
-                        data-aos-duration="800">
-                        <span class="sub-heading"><i class="fa-solid fa-graduation-cap"></i> Testimonials</span>
-                        <h2>What Our <span>Learners</span> Say</h2>
+        <!----Connect-section------->
+        <section class="connect-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Left Content -->
+                    <div class="col-lg-6">
+                        <div class="connect-content" data-aos="fade-right"
+                            data-aos-duration="800">
+
+                            <div
+                                class="connect-box d-flex align-items-center gap-3">
+                                <div class="connect-icon">
+                                    <i
+                                        class="fa-brands fa-telegram fa-3x text-telegram"></i>
+                                </div>
+                                <div class="connect-text">
+                                    <h3 class="fw-bold connect-heading mb-0">
+                                        Connect with us <br>
+                                        <span class="text-telegram">on
+                                            Telegram!</span>
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <p class="mt-3">
+                                <strong>Get immediate updates</strong> on
+                                courses, exams, and other announcements directly
+                                on Telegram!
+                            </p>
+                            <a href="https://t.me/YourTelegramChannel"
+                                target="_blank" class="btn btn-telegram mt-3">
+                                <i class="fa-brands fa-telegram"></i> Join on
+                                Telegram
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Image -->
+                    <div class="col-lg-6 text-center mt-4 mt-lg-0"
+                        data-aos="fade-left" data-aos-duration="900">
+                        <img
+                            src="https://cdn2.umnico.com/production/landing/en-article49.png"
+                            alt="Telegram Connect"
+                            class="img-fluid rounded-4">
                     </div>
                 </div>
             </div>
-            <!-- Testimonial Slider -->
-            <div class="testimonial-slider" data-aos="fade-up" data-aos-delay="15" data-aos-duration="1000">
-                <!-- Testimonial Item 1 -->
-                <div class="ef-testimonial-item style-one">
-                    <div class="testimonial-content">
-                        <div class="author-box-rating">
-                            <div class="author-box style-one">
-                                <div class="author-thumb">
-                                    <img src="assets/images/testimonial/author1.jpg" alt="Author Image">
-                                </div>
-                                <div class="author-info">
-                                    <h5>David Liam</h5>
-                                    <span class="position">CEO & Founder</span>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                <ul class="ratings">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p>We value your input and are committed to continuously improving educational offerings. Please
-                            share your thoughts, experiences, and suggestions with us. Your feedback helps us enhance
-                            our programs and better serve our learning community.</p>
-                    </div>
-                </div>
-                <!-- Testimonial Item 2 -->
-                <div class="ef-testimonial-item style-one">
-                    <div class="testimonial-content">
-                        <div class="author-box-rating">
-                            <div class="author-box style-one">
-                                <div class="author-thumb">
-                                    <img src="assets/images/testimonial/author2.jpg" alt="Author Image">
-                                </div>
-                                <div class="author-info">
-                                    <h5>Jessika Joya</h5>
-                                    <span class="position">Instructor</span>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                <ul class="ratings">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p>We value your input and are committed to continuously improving educational offerings. Please
-                            share your thoughts, experiences, and suggestions with us. Your feedback helps us enhance
-                            our programs and better serve our learning community.</p>
-                    </div>
-                </div>
-                <!-- Testimonial Item 3 -->
-                <div class="ef-testimonial-item style-one">
-                    <div class="testimonial-content">
-                        <div class="author-box-rating">
-                            <div class="author-box style-one">
-                                <div class="author-thumb">
-                                    <img src="assets/images/testimonial/author3.jpg" alt="Author Image">
-                                </div>
-                                <div class="author-info">
-                                    <h5>John Smith</h5>
-                                    <span class="position">Instructor</span>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                <ul class="ratings">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p>We value your input and are committed to continuously improving educational offerings. Please
-                            share your thoughts, experiences, and suggestions with us. Your feedback helps us enhance
-                            our programs and better serve our learning community.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!--====== End Testimonial Section ======-->
-    <!--====== Start Blog Section  ======-->
-    <section class="ef-blog-sec pt-120 pb-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Section Title -->
-                    <div class="section-title style-one text-center mb-40" data-aos="fade-up" data-aos-delay="10"
-                        data-aos-duration="800">
-                        <span class="sub-heading"><i class="fa-solid fa-graduation-cap"></i> Blog</span>
-                        <h2>Our Latest <span>Blog</span> Post</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <!-- Blog Post Item 1 -->
-                <div class="col-xl-4 col-md-6">
-                    <div class="ef-blog-grid-item style-one mb-40 h-100" data-aos="fade-up" data-aos-delay="15"
-                        data-aos-duration="900">
-                        <div class="post-thumbnail">
-                            <img src="assets/images/blog/blog1.jpg" alt="Blog Image">
-                        </div>
-                        <div class="post-content">
-                            <div class="post-meta d-flex align-items-center justify-content-between">
-                                <span><a href="#">Advance</a></span>
-                                <span><i class="fa-regular fa-calendar"></i> August 28</span>
-                            </div>
-                            <h4 class="title"><a href="#">Free Advertising for Your Online
-                                    Learning Group Study</a></h4>
-                            <div class="author-box-button">
-                                <div class="author-box style-one">
-                                    <div class="author-thumb">
-                                        <img src="assets/images/blog/author1.jpg" alt="Author Image">
-                                    </div>
-                                    <div class="author-info">
-                                        <span>Posted By</span>
-                                        <h5>David Liam</h5>
-                                    </div>
-                                </div>
-                                <div class="arrow-buttton">
-                                    <a href="#" class="icon-btn style-one"><i class="fa-solid fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Post Item 2 -->
-                <div class="col-xl-4 col-md-6">
-                    <div class="ef-blog-grid-item style-one mb-40 h-100" data-aos="fade-up" data-aos-delay="20"
-                        data-aos-duration="1000">
-                        <div class="post-thumbnail">
-                            <img src="assets/images/blog/blog2.jpg" alt="Blog Image">
-                        </div>
-                        <div class="post-content">
-                            <div class="post-meta d-flex align-items-center justify-content-between">
-                                <span><a href="#">Advance</a></span>
-                                <span><i class="fa-regular fa-calendar"></i> August 28</span>
-                            </div>
-                            <h4 class="title"><a href="#">Learning Meeting & Professional Plan
-                                    to Improve Your Learning Skills</a></h4>
-                            <div class="author-box-button">
-                                <div class="author-box style-one">
-                                    <div class="author-thumb">
-                                        <img src="assets/images/blog/author2.jpg" alt="Author Image">
-                                    </div>
-                                    <div class="author-info">
-                                        <span>Posted By</span>
-                                        <h5>Alex Mika</h5>
-                                    </div>
-                                </div>
-                                <div class="arrow-buttton">
-                                    <a href="#" class="icon-btn style-one"><i class="fa-solid fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Post Item 3 -->
-                <div class="col-xl-4 col-md-6">
-                    <div class="ef-blog-grid-item style-one mb-40 h-100" data-aos="fade-up" data-aos-delay="25"
-                        data-aos-duration="1100">
-                        <div class="post-thumbnail">
-                            <img src="assets/images/blog/blog3.jpg" alt="Blog Image">
-                        </div>
-                        <div class="post-content">
-                            <div class="post-meta d-flex align-items-center justify-content-between">
-                                <span><a href="#">Advance</a></span>
-                                <span><i class="fa-regular fa-calendar"></i> August 28</span>
-                            </div>
-                            <h4 class="title"><a href="#">Free Advertising for Your Online
-                                    Learning Group Study</a></h4>
-                            <div class="author-box-button">
-                                <div class="author-box style-one">
-                                    <div class="author-thumb">
-                                        <img src="assets/images/blog/author1.jpg" alt="Author Image">
-                                    </div>
-                                    <div class="author-info">
-                                        <span>Posted By</span>
-                                        <h5>Alex Mika</h5>
-                                    </div>
-                                </div>
-                                <div class="arrow-buttton">
-                                    <a href="#" class="icon-btn style-one"><i class="fa-solid fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--====== End Blog Section  ======-->
-    <!--====== Start Footer Area  ======-->
-    <footer class="footer-default">
-        <div class="shape shape-one"><span><img src="assets/images/footer/shape/shape1.png" alt="shape"></span></div>
-        <div class="shape shape-two"><span><img src="assets/images/footer/shape/shape2.png" alt="shape"></span></div>
-        <div class="shape shape-three"><span><img src="assets/images/footer/shape/shape3.png" alt="shape"></span>
-        </div>
-        <div class="shape shape-four"><span><img src="assets/images/footer/shape/shape4.png" alt="shape"></span>
-        </div>
-        <div class="shape shape-five"><span><img src="assets/images/footer/shape/shape5.png" alt="shape"></span>
-        </div>
-
-        <div class="container">
-            <!-- Footer Widget Area -->
-            <div class="footer-widget-area pt-120 pb-75">
-                <div class="row">
-                    <!-- About Widget -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-widget footer-about-widget mb-40" data-aos="fade-up"
-                            data-aos-duration="1000">
-                            <div class="footer-content">
-                                <div class="footer-logo">
-                                    <a href="index.html">
-                                        <!-- <img src="assets/images/logo/logo-white.png"
-                                            alt="Brand Logo"> -->
-                                        <h3 class="text-white">AROHA IAS</h3>
-                                    </a>
-                                </div>
-                                <p>Edufit offers interactive modules, live sessions, and certifications, empowering
-                                    learners with personalized content for professional and personal growth.</p>
-                                <ul class="social-link">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Quick Links & Courses -->
-                    <div class="col-lg-5 col-md-6">
-                        <div class="row">
-                            <!-- Quick Links -->
-                            <div class="col-6">
-                                <div class="footer-widget footer-nav-widget mb-40" data-aos="fade-up"
-                                    data-aos-duration="1200">
-                                    <div class="footer-content">
-                                        <h4 class="widget-title">Quick Links</h4>
-                                        <ul class="widget-nav">
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Popular Courses</a></li>
-                                            <li><a href="#">Instructor</a></li>
-                                            <li><a href="#">Event</a></li>
-                                            <li><a href="#">Blogs & News</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Courses -->
-                            <div class="col-6">
-                                <div class="footer-widget footer-nav-widget mb-40" data-aos="fade-up"
-                                    data-aos-duration="1400">
-                                    <div class="footer-content">
-                                        <h4 class="widget-title">Courses</h4>
-                                        <ul class="widget-nav">
-                                            <li><a href="#">Web Development</a></li>
-                                            <li><a href="#">Data Science</a></li>
-                                            <li><a href="#">Artificial Intelligence</a></li>
-                                            <li><a href="#">UI/UX Design</a></li>
-                                            <li><a href="#">Sales & Marketing</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Newsletter -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget footer-newsletter-widget mb-40" data-aos="fade-up"
-                            data-aos-duration="1600">
-                            <div class="footer-content">
-                                <h4 class="widget-title">Subscribe Newsletter</h4>
-                                <p>Subscribe to our newsletter to get the latest updates.</p>
-                                <form>
-                                    <div class="form-group">
-                                        <input type="email" class="form_control" placeholder="Email Address"
-                                            name="email" required>
-                                        <label><i class="far fa-envelope"></i></label>
-                                        <button class="theme-btn style-one sm-btn">Subscribe <i
-                                                class="fas fa-angle-double-right"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer Copyright -->
-        <div class="footer-copyright">
+        <!----End Connect-section------>
+        <!--====== Start Testimonial Section ======-->
+        <section class="ef-testimonial-sec gray-bg pt-120 pb-90">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="copyright-text text-center">
-                            <p>&copy; 2024 All rights reserved by <span>Demo.</span></p>
+                        <!-- Section Title -->
+                        <div class="section-title style-one text-center mb-40"
+                            data-aos="fade-up" data-aos-delay="10"
+                            data-aos-duration="800">
+                            <span class="sub-heading"><i
+                                    class="fa-solid fa-graduation-cap"></i>
+                                Testimonials</span>
+                            <h2>What Our <span>Learners</span> Say</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial Slider -->
+                <div class="testimonial-slider" data-aos="fade-up"
+                    data-aos-delay="15" data-aos-duration="1000">
+                    <!-- Testimonial Item 1 -->
+                    <div class="ef-testimonial-item style-one">
+                        <div class="testimonial-content">
+                            <div class="author-box-rating">
+                                <div class="author-box style-one">
+                                    <div class="author-thumb">
+                                        <img
+                                            src="assets/images/testimonial/author1.jpg"
+                                            alt="Author Image">
+                                    </div>
+                                    <div class="author-info">
+                                        <h5>David Liam</h5>
+                                        <span class="position">CEO &
+                                            Founder</span>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <ul class="ratings">
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p>We value your input and are committed to
+                                continuously improving educational offerings.
+                                Please
+                                share your thoughts, experiences, and
+                                suggestions with us. Your feedback helps us
+                                enhance
+                                our programs and better serve our learning
+                                community.</p>
+                        </div>
+                    </div>
+                    <!-- Testimonial Item 2 -->
+                    <div class="ef-testimonial-item style-one">
+                        <div class="testimonial-content">
+                            <div class="author-box-rating">
+                                <div class="author-box style-one">
+                                    <div class="author-thumb">
+                                        <img
+                                            src="assets/images/testimonial/author2.jpg"
+                                            alt="Author Image">
+                                    </div>
+                                    <div class="author-info">
+                                        <h5>Jessika Joya</h5>
+                                        <span class="position">Instructor</span>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <ul class="ratings">
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p>We value your input and are committed to
+                                continuously improving educational offerings.
+                                Please
+                                share your thoughts, experiences, and
+                                suggestions with us. Your feedback helps us
+                                enhance
+                                our programs and better serve our learning
+                                community.</p>
+                        </div>
+                    </div>
+                    <!-- Testimonial Item 3 -->
+                    <div class="ef-testimonial-item style-one">
+                        <div class="testimonial-content">
+                            <div class="author-box-rating">
+                                <div class="author-box style-one">
+                                    <div class="author-thumb">
+                                        <img
+                                            src="assets/images/testimonial/author3.jpg"
+                                            alt="Author Image">
+                                    </div>
+                                    <div class="author-info">
+                                        <h5>John Smith</h5>
+                                        <span class="position">Instructor</span>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <ul class="ratings">
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                        <li><i
+                                                class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p>We value your input and are committed to
+                                continuously improving educational offerings.
+                                Please
+                                share your thoughts, experiences, and
+                                suggestions with us. Your feedback helps us
+                                enhance
+                                our programs and better serve our learning
+                                community.</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!--====== End Testimonial Section ======-->
+        <!--====== Start Blog Section  ======-->
+        <section class="ef-blog-sec pt-120 pb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Section Title -->
+                        <div class="section-title style-one text-center mb-40"
+                            data-aos="fade-up" data-aos-delay="10"
+                            data-aos-duration="800">
+                            <span class="sub-heading"><i
+                                    class="fa-solid fa-graduation-cap"></i>
+                                Blog</span>
+                            <h2>Our Latest <span>Blog</span> Post</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- Blog Post Item 1 -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ef-blog-grid-item style-one mb-40 h-100"
+                            data-aos="fade-up" data-aos-delay="15"
+                            data-aos-duration="900">
+                            <div class="post-thumbnail">
+                                <img src="assets/images/blog/blog1.jpg"
+                                    alt="Blog Image">
+                            </div>
+                            <div class="post-content">
+                                <div
+                                    class="post-meta d-flex align-items-center justify-content-between">
+                                    <span><a href="#">Advance</a></span>
+                                    <span><i class="fa-regular fa-calendar"></i>
+                                        August 28</span>
+                                </div>
+                                <h4 class="title"><a href="#">Free Advertising
+                                        for Your Online
+                                        Learning Group Study</a></h4>
+                                <div class="author-box-button">
+                                    <div class="author-box style-one">
+                                        <div class="author-thumb">
+                                            <img
+                                                src="assets/images/blog/author1.jpg"
+                                                alt="Author Image">
+                                        </div>
+                                        <div class="author-info">
+                                            <span>Posted By</span>
+                                            <h5>David Liam</h5>
+                                        </div>
+                                    </div>
+                                    <div class="arrow-buttton">
+                                        <a href="#"
+                                            class="icon-btn style-one"><i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Post Item 2 -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ef-blog-grid-item style-one mb-40 h-100"
+                            data-aos="fade-up" data-aos-delay="20"
+                            data-aos-duration="1000">
+                            <div class="post-thumbnail">
+                                <img src="assets/images/blog/blog2.jpg"
+                                    alt="Blog Image">
+                            </div>
+                            <div class="post-content">
+                                <div
+                                    class="post-meta d-flex align-items-center justify-content-between">
+                                    <span><a href="#">Advance</a></span>
+                                    <span><i class="fa-regular fa-calendar"></i>
+                                        August 28</span>
+                                </div>
+                                <h4 class="title"><a href="#">Learning Meeting &
+                                        Professional Plan
+                                        to Improve Your Learning Skills</a></h4>
+                                <div class="author-box-button">
+                                    <div class="author-box style-one">
+                                        <div class="author-thumb">
+                                            <img
+                                                src="assets/images/blog/author2.jpg"
+                                                alt="Author Image">
+                                        </div>
+                                        <div class="author-info">
+                                            <span>Posted By</span>
+                                            <h5>Alex Mika</h5>
+                                        </div>
+                                    </div>
+                                    <div class="arrow-buttton">
+                                        <a href="#"
+                                            class="icon-btn style-one"><i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Post Item 3 -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ef-blog-grid-item style-one mb-40 h-100"
+                            data-aos="fade-up" data-aos-delay="25"
+                            data-aos-duration="1100">
+                            <div class="post-thumbnail">
+                                <img src="assets/images/blog/blog3.jpg"
+                                    alt="Blog Image">
+                            </div>
+                            <div class="post-content">
+                                <div
+                                    class="post-meta d-flex align-items-center justify-content-between">
+                                    <span><a href="#">Advance</a></span>
+                                    <span><i class="fa-regular fa-calendar"></i>
+                                        August 28</span>
+                                </div>
+                                <h4 class="title"><a href="#">Free Advertising
+                                        for Your Online
+                                        Learning Group Study</a></h4>
+                                <div class="author-box-button">
+                                    <div class="author-box style-one">
+                                        <div class="author-thumb">
+                                            <img
+                                                src="assets/images/blog/author1.jpg"
+                                                alt="Author Image">
+                                        </div>
+                                        <div class="author-info">
+                                            <span>Posted By</span>
+                                            <h5>Alex Mika</h5>
+                                        </div>
+                                    </div>
+                                    <div class="arrow-buttton">
+                                        <a href="#"
+                                            class="icon-btn style-one"><i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== End Blog Section  ======-->
+        <!--====== Start Footer Area  ======-->
+        <footer class="footer-default">
+            <div class="shape shape-one"><span><img
+                        src="assets/images/footer/shape/shape1.png"
+                        alt="shape"></span></div>
+            <div class="shape shape-two"><span><img
+                        src="assets/images/footer/shape/shape2.png"
+                        alt="shape"></span></div>
+            <div class="shape shape-three"><span><img
+                        src="assets/images/footer/shape/shape3.png"
+                        alt="shape"></span>
+            </div>
+            <div class="shape shape-four"><span><img
+                        src="assets/images/footer/shape/shape4.png"
+                        alt="shape"></span>
+            </div>
+            <div class="shape shape-five"><span><img
+                        src="assets/images/footer/shape/shape5.png"
+                        alt="shape"></span>
+            </div>
+
+            <div class="container">
+                <!-- Footer Widget Area -->
+                <div class="footer-widget-area pt-120 pb-75">
+                    <div class="row">
+                        <!-- About Widget -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="footer-widget footer-about-widget mb-40"
+                                data-aos="fade-up"
+                                data-aos-duration="1000">
+                                <div class="footer-content">
+                                    <div class="footer-logo">
+                                        <a href="index.html">
+                                            <!-- <img src="assets/images/logo/logo-white.png"
+                                            alt="Brand Logo"> -->
+                                            <h3 class="text-white">AROHA
+                                                IAS</h3>
+                                        </a>
+                                    </div>
+                                    <p>Edufit offers interactive modules, live
+                                        sessions, and certifications, empowering
+                                        learners with personalized content for
+                                        professional and personal growth.</p>
+                                    <ul class="social-link">
+                                        <li><a href="#"><i
+                                                    class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i
+                                                    class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i
+                                                    class="fab fa-skype"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links & Courses -->
+                        <div class="col-lg-5 col-md-6">
+                            <div class="row">
+                                <!-- Quick Links -->
+                                <div class="col-6">
+                                    <div
+                                        class="footer-widget footer-nav-widget mb-40"
+                                        data-aos="fade-up"
+                                        data-aos-duration="1200">
+                                        <div class="footer-content">
+                                            <h4 class="widget-title">Quick
+                                                Links</h4>
+                                            <ul class="widget-nav">
+                                                <li><a href="#">About
+                                                        Us</a></li>
+                                                <li><a href="#">Popular
+                                                        Courses</a></li>
+                                                <li><a
+                                                        href="#">Instructor</a></li>
+                                                <li><a href="#">Event</a></li>
+                                                <li><a href="#">Blogs &
+                                                        News</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Courses -->
+                                <div class="col-6">
+                                    <div
+                                        class="footer-widget footer-nav-widget mb-40"
+                                        data-aos="fade-up"
+                                        data-aos-duration="1400">
+                                        <div class="footer-content">
+                                            <h4
+                                                class="widget-title">Courses</h4>
+                                            <ul class="widget-nav">
+                                                <li><a href="#">Web
+                                                        Development</a></li>
+                                                <li><a href="#">Data
+                                                        Science</a></li>
+                                                <li><a href="#">Artificial
+                                                        Intelligence</a></li>
+                                                <li><a href="#">UI/UX
+                                                        Design</a></li>
+                                                <li><a href="#">Sales &
+                                                        Marketing</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Newsletter -->
+                        <div class="col-lg-3 col-md-6">
+                            <div
+                                class="footer-widget footer-newsletter-widget mb-40"
+                                data-aos="fade-up"
+                                data-aos-duration="1600">
+                                <div class="footer-content">
+                                    <h4 class="widget-title">Subscribe
+                                        Newsletter</h4>
+                                    <p>Subscribe to our newsletter to get the
+                                        latest updates.</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="email"
+                                                class="form_control"
+                                                placeholder="Email Address"
+                                                name="email" required>
+                                            <label><i
+                                                    class="far fa-envelope"></i></label>
+                                            <button
+                                                class="theme-btn style-one sm-btn">Subscribe
+                                                <i
+                                                    class="fas fa-angle-double-right"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Copyright -->
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright-text text-center">
+                                <p>&copy; 2024 All rights reserved by
+                                    <span>Demo.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--====== End Footer Area  ======-->
+        <!--====== Back To Top ======-->
+        <!-- <div class="back-to-top"><i class="far fa-arrow-up"></i></div> -->
+        <div class="back-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
         </div>
-    </footer>
 
-    <!--====== End Footer Area  ======-->
-    <!--====== Back To Top ======-->
-    <!-- <div class="back-to-top"><i class="far fa-arrow-up"></i></div> -->
-    <div class="back-to-top">
-        <i class="fa-solid fa-arrow-up"></i>
-    </div>
+        <!--====== Jquery js ======-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--====== Bootstrap js ======-->
+        <script src="assets/js/popper.min.js"></script>
+        <!--====== Bootstrap js ======-->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!--====== Slick js ======-->
+        <script src="assets/js/slick.min.js"></script>
+        <!--====== Magnific js ======-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--====== Aos js ======-->
+        <script src="assets/js/aos.js"></script>
+        <!--====== Main js ======-->
+        <script src="assets/js/common_script.js"></script>
+        <!--====== Main js ======-->
+        <script src="assets/js/theme.js"></script>
 
-    <!--====== Jquery js ======-->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!--====== Bootstrap js ======-->
-    <script src="assets/js/popper.min.js"></script>
-    <!--====== Bootstrap js ======-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!--====== Slick js ======-->
-    <script src="assets/js/slick.min.js"></script>
-    <!--====== Magnific js ======-->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!--====== Aos js ======-->
-    <script src="assets/js/aos.js"></script>
-    <!--====== Main js ======-->
-    <script src="assets/js/common_script.js"></script>
-    <!--====== Main js ======-->
-    <script src="assets/js/theme.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
         var swiper = new Swiper(".heroSwiper", {
             loop: true,
             speed: 1000,
@@ -1440,7 +1744,7 @@
         });
     </script>
 
-    <script>
+        <script>
         document.querySelectorAll('.view-pdf-btn').forEach(button => {
             button.addEventListener('click', function () {
                 const pdfPath = this.getAttribute('data-pdf');
@@ -1453,6 +1757,6 @@
         });
     </script>
 
-</body>
+    </body>
 
 </html>
