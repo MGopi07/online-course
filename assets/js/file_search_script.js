@@ -3,8 +3,11 @@ const pdfFiles = [
   // History
   { name: "Ancient India -Time Table.pdf", path: "assets/pdf/history/" },
   { name: "Gupta Empire.pdf", path: "assets/pdf/history/" },
-  { name: "Harappan Civilisation.pdf", path: "assets/pdf/history/" },
   { name: "Mauryan Empire.pdf", path: "assets/pdf/history/" },
+   { name: "Buddhism.pdf", path: "assets/pdf/history/" },
+    { name: "Jainism.pdf", path: "assets/pdf/history/" },
+     { name: "Mahajanapadas.pdf", path: "assets/pdf/history/" },
+      { name: "Vedic period & vedic literature.pdf", path: "assets/pdf/history/" },
 
   // Add More Categories Below
   // { name: "filename.pdf", path: "assets/pdf/geography/" },
