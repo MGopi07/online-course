@@ -974,14 +974,14 @@
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  background: #0066ff;
+  background: none;
   color: #fff;
 }
 
 /* Increase icon size */
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 18px;
+  font-size: 24px !important;
 }
 
 /* Hide arrows on very small mobiles */
@@ -1015,7 +1015,10 @@
   padding: 10px;
   z-index: 20;
 }
-
+.btn-close.close-search:hover{
+ color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
 /* Search Center Layout */
 .search-container {
   width: 100%;
@@ -1155,4 +1158,10 @@
 }
 .floating-call-btn:hover {
   animation-play-state: paused;
+}
+.footer-widget.footer-nav-widget,.footer-widget.footer-newsletter-widget{
+  margin-top: 20px;
+}
+.mineral-page-img img{
+  width: 500px;
 }
