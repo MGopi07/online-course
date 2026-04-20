@@ -943,7 +943,8 @@
 /* Desktop Hero Image Fix */
 .hero-image-box.desktop-only img {
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
+  height: 400px;
   object-fit: contain;
 }
 
@@ -1124,6 +1125,17 @@
   }
 }
 /*----------*/
+/* @keyframes floatAnimation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+} */
 @keyframes floatAnimation {
   0% {
     transform: translateY(0px);
@@ -1140,25 +1152,53 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #6255fa;
+  background-color: #25D366;
   color: white;
-  font-size: 16px;
-  padding: 12px 18px;
+  font-size: 24px;
+  padding: 15px 18px; /* Added padding */
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation: floatAnimation 2s ease-in-out infinite;
+  transition: transform 0.2s ease;
+}
+
+.floating-call-btn:hover {
+  background-color: #25D366;
+  color: white;
+  animation-play-state: paused;
+  transform: scale(1.1); /* small zoom effect */
+}
+/* 
+.floating-call-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #6255fa;
+  background-color:#25D366;
+  color: white;
+  font-size: 24px;
+  padding: 15px 20px;
   border-radius: 50px;
   text-decoration: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   z-index: 9999;
-
-  /* ⭐ ADD THIS */
   animation: floatAnimation 2s ease-in-out infinite;
-}
-.floating-call-btn:hover {
+} */
+/* .floating-call-btn:hover {
   background-color: #6255fa;
+  background-color: #25D366;
   color: white;
-}
-.floating-call-btn:hover {
+} */
+/* .floating-call-btn:hover {
   animation-play-state: paused;
-}
+} */
+
 .footer-widget.footer-nav-widget,.footer-widget.footer-newsletter-widget{
   margin-top: 20px;
 }

@@ -1,246 +1,227 @@
 <!DOCTYPE html>
 <html lang="zxx">
-  <head>
-    <!--====== Meta Tags ======-->
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta
-      name="description"
-      content="Access History study materials including Ancient, Medieval, Modern, and World History PDFs."
-    />
-    <!-- <meta
+
+<head>
+  <!--====== Meta Tags ======-->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description"
+    content="Access History study materials including Ancient, Medieval, Modern, and World History PDFs." />
+  <!-- <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>History Study Materials | Aroha IAS</title>
+  <title>History Study Materials | Aroha IAS</title>
 
-    <!--====== Favicon ======-->
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.png"
-      type="image/png"
-    />
+  <!--====== Favicon ======-->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
 
-    <!--====== Google Fonts ======-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=SUSE:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+  <!--====== Google Fonts ======-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=SUSE:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
 
-    <!--====== FontAwesome ======-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
+  <!--====== FontAwesome ======-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
-    <!--====== Bootstrap ======-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!--====== Bootstrap ======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-    <!--====== Animation & Style ======-->
-    <link rel="stylesheet" href="assets/css/aos.css" />
-    <link rel="stylesheet" href="assets/css/default.css" />
-    <link rel="stylesheet" href="assets/css/common_style.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+  <!--====== Animation & Style ======-->
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <link rel="stylesheet" href="assets/css/default.css" />
+  <link rel="stylesheet" href="assets/css/common_style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-  <body>
-    <!--====== Preloader ======-->
-    <div class="preloader">
-      <div class="loader">
-        <img
-          src="assets/images/Aroha logo PNG.png"
-          alt="loader"
-          class="img-fluid loader-img"
-        />
-      </div>
+<body>
+  <!--====== Preloader ======-->
+  <div class="preloader">
+    <div class="loader">
+      <img src="assets/images/Aroha logo PNG.png" alt="loader" class="img-fluid loader-img" />
     </div>
-    <!--====== Search From ======-->
-   
-   <div class="modal fade search-modal" id="search-modal">
-      <div class="modal-dialog modal-fullscreen">
-          <div class="modal-content">
+  </div>
+  <!--====== Search From ======-->
 
-      <!-- Close Button -->
-      <button type="button" class="btn-close close-search"
-        data-bs-dismiss="modal">
-        <i class="fa-solid fa-xmark"></i>
-         </button>
+  <div class="modal fade search-modal" id="search-modal">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+
+        <!-- Close Button -->
+        <button type="button" class="btn-close close-search" data-bs-dismiss="modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
 
         <div class="search-container text-center">
-        <form onsubmit="return false;">
-          <div class="search-box">
-            <input type="search" id="searchInput" class="form-control"
-              placeholder="Search PDF files..." autocomplete="off" />
-            <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
-          </div>
-        </form>
-
-        <!-- Results -->
-        <div id="searchResults" class="search-results"></div>
-         </div>
-
-         </div>
-       </div>
-     </div>
-
-
-    
-    <!--====== Search From ======-->
-       <header class="header-area header-one">
-        <!--====  Header Top  ===-->
-        <div class="header-top">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!--===  Top Bar Left  ===-->
-                        <div class="top-left ">
-                            <span>
-                                <i class="fa-solid fa-envelope"></i>
-                                <a href="mailto:arohaias@gmail.com">arohaias@gmail.com</a>
-                            </span>
-                            <span>
-                                <!-- <i class="fa-solid fa-location-dot"></i>
-                                15/A, San Francisco, California -->
-                                <i class="fa-solid fa-phone"></i>
-                                +91 8903295532
-                            </span>
-                        </div>
-
-                    </div>
-
-                </div>
+          <form onsubmit="return false;">
+            <div class="search-box">
+              <input type="search" id="searchInput" class="form-control" placeholder="Search PDF files..."
+                autocomplete="off" />
+              <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
             </div>
+          </form>
+
+          <!-- Results -->
+          <div id="searchResults" class="search-results"></div>
         </div>
-        <!-- </header> -->
-           <!--====== Header Area ======-->
-             <div class="header-navigation">
-            <div class="container-fluid">
-                <!--====  Header Nav Inner  ===-->
-                <div class="nav-inner-menu">
-                    <!--====  Primary Menu  ===-->
-                    <div class="primary-menu">
-                        <!--====  Site Branding  ===-->
-                        <div class="site-branding">
-                            <a href="index.html" class="brand-logo">
-                                <img src="./assets/images/logo/new-logo.png" alt="Brand Logo"
-                                    class="img-fluid main-logo">
-                            </a>
-                        </div>
 
-                        <!--=== Edufit Main Menu ===-->
-                        <div class="edufit-nav-menu">
-                            <!--=== Edufit Menu Top ===-->
-                            <div class="edufit-menu-top d-flex justify-content-between d-block d-xl-none">
-                                <div class="site-branding">
-                                    <a href="index.html" class="brand-logo">
-                                        <img src="./assets/images/logo/new-logo.png" alt="Brand Logo"
-                                            class="img-fluid main-logo">
-                                    </a>
-                                </div>
-                                <div class="navbar-close">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                            </div>
+      </div>
+    </div>
+  </div>
 
-                            <!--=== Main Menu ===-->
-                            <nav class="main-menu">
-                                <ul>
-                                    <li class="menu-item"><a href="index.html">Home</a></li>
-                                    <li class="menu-item"><a href="#">Prelims</a></li>
 
-                                    <!-- <li class="menu-item has-children"><a href="#">Prelims</a>
+
+  <!--====== Search From ======-->
+  <header class="header-area header-one">
+    <!--====  Header Top  ===-->
+    <div class="header-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <!--===  Top Bar Left  ===-->
+            <div class="top-left ">
+              <span>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:arohaias@gmail.com">arohaias@gmail.com</a>
+              </span>
+              <span>
+                <!-- <i class="fa-solid fa-location-dot"></i>
+                                15/A, San Francisco, California -->
+                <i class="fa-solid fa-phone"></i>
+                +91 94446 65475
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- </header> -->
+    <!--====== Header Area ======-->
+    <div class="header-navigation">
+      <div class="container-fluid">
+        <!--====  Header Nav Inner  ===-->
+        <div class="nav-inner-menu">
+          <!--====  Primary Menu  ===-->
+          <div class="primary-menu">
+            <!--====  Site Branding  ===-->
+            <div class="site-branding">
+              <a href="index.html" class="brand-logo">
+                <img src="./assets/images/logo/new-logo.png" alt="Brand Logo" class="img-fluid main-logo">
+              </a>
+            </div>
+
+            <!--=== Edufit Main Menu ===-->
+            <div class="edufit-nav-menu">
+              <!--=== Edufit Menu Top ===-->
+              <div class="edufit-menu-top d-flex justify-content-between d-block d-xl-none">
+                <div class="site-branding">
+                  <a href="index.html" class="brand-logo">
+                    <img src="./assets/images/logo/new-logo.png" alt="Brand Logo" class="img-fluid main-logo">
+                  </a>
+                </div>
+                <div class="navbar-close">
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+              </div>
+
+              <!--=== Main Menu ===-->
+              <nav class="main-menu">
+                <ul>
+                  <li class="menu-item"><a href="index.html">Home</a></li>
+                  <li class="menu-item"><a href="#">Prelims</a></li>
+
+                  <!-- <li class="menu-item has-children"><a href="#">Prelims</a>
                                         <ul class="sub-menu">
                                             <li><a href="#">demo one</a></li>
                                             <li><a href="#">demo two</a></li>
 
                                         </ul>
                                     </li> -->
-                                    <li class="menu-item has-children"><a href="#">Mains</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Essay</a></li>
-                                            <li><a href="#">Paper-1</a></li>
-                                            <li><a href="#">Paper-2</a></li>
-                                            <li><a href="#">Paper-3</a></li>
-                                            <li><a href="#">Paper-4</a></li>
+                  <li class="menu-item has-children"><a href="#">Mains</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">Essay</a></li>
+                      <li><a href="#">Paper-1</a></li>
+                      <li><a href="#">Paper-2</a></li>
+                      <li><a href="#">Paper-3</a></li>
+                      <li><a href="#">Paper-4</a></li>
 
 
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#">Current Affairs</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Prelims Ca</a></li>
-                                            <li><a href="#">Mains Ca</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item has-children"><a href="#">Current Affairs</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">Prelims Ca</a></li>
+                      <li><a href="#">Mains Ca</a></li>
 
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="#">IFOS</a></li>
-                                    <li class="menu-item has-children"><a href="#">Course</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Test Series</a></li>
-                                            <li><a href="#">Mentorship</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item"><a href="#">IFOS</a></li>
+                  <li class="menu-item has-children"><a href="#">Course</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">Test Series</a></li>
+                      <li><a href="#">Mentorship</a></li>
 
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="about.html">About</a></li>
-                                    <li class="menu-item"><a href="#">Blog</a></li>
-                                    <li class="menu-item"><a href="#">Contact Us</a></li>
-                                </ul>
-                            </nav>
+                    </ul>
+                  </li>
+                  <li class="menu-item"><a href="about.html">About</a></li>
+                  <li class="menu-item"><a href="#">Blog</a></li>
+                  <li class="menu-item"><a href="#">Contact Us</a></li>
+                </ul>
+              </nav>
 
-                            <!--=== Edufit Nav Button ===-->
-                            <!-- <div class="edufit-nav-button d-block d-xl-none mt-40">
+              <!--=== Edufit Nav Button ===-->
+              <!-- <div class="edufit-nav-button d-block d-xl-none mt-40">
                                 <a href="#" class="theme-btn style-one">Log in</a>
                                 <a href="#" class="theme-btn style-two">Register</a>
                             </div> -->
-                        </div>
-
-                        <!--=== Header Nav Right ===-->
-                        <div class="nav-right-item">
-                           
-                            <div class="search-btn">
-                              <button class="icon" data-bs-toggle="modal" data-bs-target="#search-modal">
-                               <i class="fa-solid fa-magnifying-glass"></i>
-                              </button>
-                             </div>
-
-                            <!-- <div class="nav-button d-none d-xl-block">
-                                <a href="#" class="theme-btn style-one">Log in</a>
-                                <a href="#" class="theme-btn style-two">Register</a>
-                            </div> -->
-
-                            <div class="navbar-toggler">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
             </div>
+
+            <!--=== Header Nav Right ===-->
+            <div class="nav-right-item">
+
+              <div class="search-btn">
+                <button class="icon" data-bs-toggle="modal" data-bs-target="#search-modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+
+              <!-- <div class="nav-button d-none d-xl-block">
+                                <a href="#" class="theme-btn style-one">Log in</a>
+                                <a href="#" class="theme-btn style-two">Register</a>
+                            </div> -->
+
+              <div class="navbar-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+          </div>
         </div>
-    </header>
-
-    <!--====== Hero Section ======-->
-    <section
-      class="ef-page-hero bg_cover"
-      style="background-image: url(assets/images/breadcrumb-bg.jpg)"
-    >
-      <div class="container text-center">
-        <h1 class="page-title">History</h1>
-        <ul class="breadcrumb-link">
-          <li>
-            <a href="index.html"><i class="fas fa-home"></i> Home</a>
-          </li>
-          <li><i class="fas fa-angle-right mx-2"></i> History</li>
-        </ul>
       </div>
-    </section>
+    </div>
+  </header>
 
-    <!--====== History PDF Section ======-->
-    <!-- <section class="study-materials-section pt-100 pb-100">
+  <!--====== Hero Section ======-->
+  <section class="ef-page-hero bg_cover" style="background-image: url(assets/images/breadcrumb-bg.jpg)">
+    <div class="container text-center">
+      <h1 class="page-title">History</h1>
+      <ul class="breadcrumb-link">
+        <li>
+          <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li><i class="fas fa-angle-right mx-2"></i> History</li>
+      </ul>
+    </div>
+  </section>
+
+  <!--====== History PDF Section ======-->
+  <!-- <section class="study-materials-section pt-100 pb-100">
       <div class="container">
        
         <div
@@ -387,239 +368,227 @@
         </div>
       </div>
     </section> -->
-    <section class="study-materials-section pt-100 pb-100">
-  <div class="container">
-    <!-- Section Title -->
-    <div class="section-title style-one text-center mb-50" data-aos="fade-up">
-      <span class="sub-heading"
-        ><i class="fa-solid fa-landmark me-2"></i>History Study Materials</span
-      >
-      <h2>Explore <span>Comprehensive</span> History Notes</h2>
+  <section class="study-materials-section pt-100 pb-100">
+    <div class="container">
+      <!-- Section Title -->
+      <div class="section-title style-one text-center mb-50" data-aos="fade-up">
+        <span class="sub-heading"><i class="fa-solid fa-landmark me-2"></i>History Study Materials</span>
+        <h2>Explore <span>Comprehensive</span> History Notes</h2>
+      </div>
+
+      <!-- ====== Ancient History ====== -->
+      <div class="history-section mb-5" data-aos="fade-up">
+        <h3 class="mb-3">
+          <i class="fa-solid fa-scroll me-2"></i>Ancient History
+        </h3>
+        <ul class="list-group shadow-sm">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Ancient India -Time Table (PDF)</span>
+            <button class="btn btn-outline-primary btn-sm view-pdf-btn"
+              data-pdf="./assets/pdf/history/Ancient India -Time Table.pdf">
+              View
+            </button>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Mauryan Empire (PDF)</span>
+            <button class="btn btn-outline-primary btn-sm view-pdf-btn"
+              data-pdf="./assets/pdf/history/Mauryan-empire.pdf">
+              View
+            </button>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Gupta Empire (PDF)</span>
+            <button class="btn btn-outline-primary btn-sm view-pdf-btn"
+              data-pdf="./assets/pdf/history/Gupta Empire.pdf">
+              View
+            </button>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Buddhism (PDF)</span>
+            <button class="btn btn-outline-primary btn-sm view-pdf-btn" data-pdf="./assets/pdf/history/Buddhism.pdf">
+              View
+            </button>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Jainism (PDF)</span>
+            <button class="btn btn-outline-primary btn-sm view-pdf-btn" data-pdf="./assets/pdf/history/Jainism.pdf">
+              View
+            </button>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Mahajanapadas (PDF)</span>
+            <button class="btn btn-outline-primary btn-sm view-pdf-btn"
+              data-pdf="./assets/pdf/history/Mahajanapadas.pdf">
+              View
+            </button>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Vedic Period & Vedic Literature (PDF)</span>
+            <button class="btn btn-outline-primary btn-sm view-pdf-btn"
+              data-pdf="./assets/pdf/history/Vedic period & vedic literature.pdf">
+              View
+            </button>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <!-- ====== Ancient History ====== -->
-    <div class="history-section mb-5" data-aos="fade-up">
-      <h3 class="mb-3">
-        <i class="fa-solid fa-scroll me-2"></i>Ancient History
-      </h3>
-      <ul class="list-group shadow-sm">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Ancient India -Time Table (PDF)</span>
-          <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-            data-pdf="./assets/pdf/history/Ancient India -Time Table.pdf">
-            View
-          </button>
-        </li>
+    <!--====== PDF Modal ======-->
+    <div class="modal fade" id="pdfModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">View Study Material</h5>
 
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Mauryan Empire (PDF)</span>
-          <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-            data-pdf="./assets/pdf/history/Mauryan-empire.pdf">
-            View
-          </button>
-        </li>
+            <!-- Download Button Added -->
+            <a id="downloadPdfBtn" href="#" download class="btn btn-sm btn-success me-2 mx-3">
+              <i class="fa-solid fa-download"></i> Download
+            </a>
 
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Gupta Empire (PDF)</span>
-          <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-            data-pdf="./assets/pdf/history/Gupta Empire.pdf">
-            View
-          </button>
-        </li>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
 
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Buddhism (PDF)</span>
-          <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-            data-pdf="./assets/pdf/history/Buddhism.pdf">
-            View
-          </button>
-        </li>
-
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Jainism (PDF)</span>
-          <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-            data-pdf="./assets/pdf/history/Jainism.pdf">
-            View
-          </button>
-        </li>
-
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Mahajanapadas (PDF)</span>
-          <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-            data-pdf="./assets/pdf/history/Mahajanapadas.pdf">
-            View
-          </button>
-        </li>
-
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span><i class="fa-solid fa-file-pdf text-danger me-2"></i> Vedic Period & Vedic Literature (PDF)</span>
-          <button class="btn btn-outline-primary btn-sm view-pdf-btn"
-            data-pdf="./assets/pdf/history/Vedic period & vedic literature.pdf">
-            View
-          </button>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!--====== PDF Modal ======-->
-  <div class="modal fade" id="pdfModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">View Study Material</h5>
-
-          <!-- Download Button Added -->
-          <a id="downloadPdfBtn" href="#" download class="btn btn-sm btn-success me-2 mx-3">
-            <i class="fa-solid fa-download"></i> Download
-          </a>
-
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-
-        <div class="modal-body p-0">
-          <iframe id="pdfFrame"
-            src=""
-            frameborder="0"
-            style="width: 100%; height: 80vh"
-            allow="fullscreen">
-          </iframe>
+          <div class="modal-body p-0">
+            <iframe id="pdfFrame" src="" frameborder="0" style="width: 100%; height: 80vh" allow="fullscreen">
+            </iframe>
+          </div>
         </div>
       </div>
     </div>
+  </section>
+
+  <!--====== Start Footer Area  ======-->
+  <footer class="footer-default">
+    <div class="shape shape-one"><span><img src="assets/images/footer/shape/shape1.png" alt="shape"></span></div>
+    <div class="shape shape-two"><span><img src="assets/images/footer/shape/shape4.png" alt="shape"></span></div>
+    <!-- <div class="shape shape-three"><span><img src="assets/images/footer/shape/shape3.png" alt="shape"></span> -->
+    </div>
+    <!-- <div class="shape shape-four"><span><img src="assets/images/footer/shape/shape4.png" alt="shape"></span> -->
+    </div>
+    <div class="shape shape-five"><span><img src="assets/images/footer/shape/shape5.png" alt="shape"></span>
+    </div>
+
+    <div class="container">
+      <!-- Footer Widget Area -->
+      <div class="footer-widget-area pt-60 pb-75">
+        <div class="row">
+          <!-- About Widget -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget footer-about-widget mb-40" data-aos="fade-up" data-aos-duration="1000">
+              <div class="footer-content">
+                <div class="footer-logo">
+                  <a href="index.html">
+                    <img src="assets/images/logo/new-logo-white.png" alt="Brand Logo" class="img-fluid">
+                    <!-- <h3 class="text-white">AROHA IAS</h3> -->
+                  </a>
+                </div>
+                <p>Thanks for visiting our page.Stay consistent with us for our daily updates. Achieve your IAS/IPS
+                  dream. All the best !
+                  -Team AROHA IAS</p>
+                <ul class="social-link">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+
+                  <li><a href="https://t.me/arohaiasacademy"><i class="fab fa-telegram-plane"></i></a></li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Links & Courses -->
+          <div class="col-lg-4 col-md-6">
+
+            <div class="footer-widget footer-nav-widget mb-40" data-aos="fade-up" data-aos-duration="1200">
+              <div class="footer-content">
+                <h4 class="widget-title">Quick Links</h4>
+                <ul class="widget-nav">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="#">Popular Courses</a></li>
+                  <li><a href="#">Instructor</a></li>
+                  <li><a href="#">Event</a></li>
+                  <li><a href="#">Blogs & News</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget footer-newsletter-widget mb-40" data-aos="fade-up" data-aos-duration="1600">
+              <div class="footer-content">
+                <h4 class="widget-title">Subscribe Newsletter</h4>
+                <p>Subscribe to our newsletter to get the latest updates.</p>
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form_control" placeholder="Email Address" name="email" required>
+                    <label><i class="far fa-envelope"></i></label>
+                    <button class="theme-btn style-one sm-btn">Subscribe <i
+                        class="fas fa-angle-double-right"></i></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Copyright -->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="copyright-text text-center">
+              <p>&copy; 2025 All rights reserved by <span>AROHA IAS.</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--====== End Footer Area  ======-->
+
+  <!--====== Back To Top ======-->
+  <!-- <div class="back-to-top"><i class="fa-solid fa-arrow-up"></i></div> -->
+  <div class="">
+    <a href="https://wa.me/919444665475" class="floating-call-btn">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
   </div>
-</section>
+  <!--====== Scripts ======-->
 
-    <!--====== Start Footer Area  ======-->
-    <footer class="footer-default">
-        <div class="shape shape-one"><span><img src="assets/images/footer/shape/shape1.png" alt="shape"></span></div>
-        <div class="shape shape-two"><span><img src="assets/images/footer/shape/shape4.png" alt="shape"></span></div>
-        <!-- <div class="shape shape-three"><span><img src="assets/images/footer/shape/shape3.png" alt="shape"></span> -->
-        </div>
-        <!-- <div class="shape shape-four"><span><img src="assets/images/footer/shape/shape4.png" alt="shape"></span> -->
-        </div>
-        <div class="shape shape-five"><span><img src="assets/images/footer/shape/shape5.png" alt="shape"></span>
-        </div>
-
-        <div class="container">
-            <!-- Footer Widget Area -->
-            <div class="footer-widget-area pt-60 pb-75">
-                <div class="row">
-                    <!-- About Widget -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-widget footer-about-widget mb-40" data-aos="fade-up"
-                            data-aos-duration="1000">
-                            <div class="footer-content">
-                                <div class="footer-logo">
-                                    <a href="index.html">
-                                        <img src="assets/images/logo/new-logo-white.png" alt="Brand Logo"
-                                            class="img-fluid">
-                                        <!-- <h3 class="text-white">AROHA IAS</h3> -->
-                                    </a>
-                                </div>
-                                <p>Thanks for visiting our page.Stay consistent with us for our daily updates. Achieve your IAS/IPS dream. All the best !
--Team AROHA IAS</p>
-                                <ul class="social-link">
-    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-
-    <li><a href="https://t.me/arohaiasacademy"><i class="fab fa-telegram-plane"></i></a></li>
-</ul>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Quick Links & Courses -->
-                    <div class="col-lg-4 col-md-6">
-                     
-                                <div class="footer-widget footer-nav-widget mb-40" data-aos="fade-up"
-                                    data-aos-duration="1200">
-                                    <div class="footer-content">
-                                        <h4 class="widget-title">Quick Links</h4>
-                                        <ul class="widget-nav">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="#">Popular Courses</a></li>
-                                            <li><a href="#">Instructor</a></li>
-                                            <li><a href="#">Event</a></li>
-                                            <li><a href="#">Blogs & News</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            
-                    </div>
-
-                    <!-- Newsletter -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-widget footer-newsletter-widget mb-40" data-aos="fade-up"
-                            data-aos-duration="1600">
-                            <div class="footer-content">
-                                <h4 class="widget-title">Subscribe Newsletter</h4>
-                                <p>Subscribe to our newsletter to get the latest updates.</p>
-                                <form>
-                                    <div class="form-group">
-                                        <input type="email" class="form_control" placeholder="Email Address"
-                                            name="email" required>
-                                        <label><i class="far fa-envelope"></i></label>
-                                        <button class="theme-btn style-one sm-btn">Subscribe <i
-                                                class="fas fa-angle-double-right"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer Copyright -->
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright-text text-center">
-                            <p>&copy; 2025 All rights reserved by <span>AROHA IAS.</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!--====== End Footer Area  ======-->
-
-    <!--====== Back To Top ======-->
-    <!-- <div class="back-to-top"><i class="fa-solid fa-arrow-up"></i></div> -->
-<div class="">
-    <a href="tel:+918903295532" class="floating-call-btn">
-  <i class="fa-solid fa-phone"></i>
-</a>
-
-</div>
-    <!--====== Scripts ======-->
-
-    <!--====== Jquery js ======-->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!--====== Bootstrap js ======-->
-    <script src="assets/js/popper.min.js"></script>
-    <!--====== Bootstrap js ======-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!--====== Slick js ======-->
-    <script src="assets/js/slick.min.js"></script>
-    <!--====== Magnific js ======-->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!--====== Aos js ======-->
-    <script src="assets/js/aos.js"></script>
-    <!--====== Main js ======-->
-    <script src="assets/js/common_script.js"></script>
-    <!--====== Main js ======-->
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/file_search_script.js"></script>
+  <!--====== Jquery js ======-->
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <!--====== Bootstrap js ======-->
+  <script src="assets/js/popper.min.js"></script>
+  <!--====== Bootstrap js ======-->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!--====== Slick js ======-->
+  <script src="assets/js/slick.min.js"></script>
+  <!--====== Magnific js ======-->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!--====== Aos js ======-->
+  <script src="assets/js/aos.js"></script>
+  <!--====== Main js ======-->
+  <script src="assets/js/common_script.js"></script>
+  <!--====== Main js ======-->
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/file_search_script.js"></script>
 
 
-   
-    <!-- <script>
+
+  <!-- <script>
       document.querySelectorAll(".view-pdf-btn").forEach((button) => {
         button.addEventListener("click", function () {
           const pdfPath = this.getAttribute("data-pdf");
@@ -632,21 +601,22 @@
         });
       });
     </script> -->
-    <script>
-  document.querySelectorAll(".view-pdf-btn").forEach((button) => {
-    button.addEventListener("click", function () {
-      const pdfPath = this.getAttribute("data-pdf");
+  <script>
+    document.querySelectorAll(".view-pdf-btn").forEach((button) => {
+      button.addEventListener("click", function () {
+        const pdfPath = this.getAttribute("data-pdf");
 
-      // Set PDF in iframe
-      document.getElementById("pdfFrame").src = pdfPath;
+        // Set PDF in iframe
+        document.getElementById("pdfFrame").src = pdfPath;
 
-      // Set download link
-      document.getElementById("downloadPdfBtn").href = pdfPath;
+        // Set download link
+        document.getElementById("downloadPdfBtn").href = pdfPath;
 
-      // Show modal
-      new bootstrap.Modal(document.getElementById("pdfModal")).show();
+        // Show modal
+        new bootstrap.Modal(document.getElementById("pdfModal")).show();
+      });
     });
-  });
-</script>
-  </body>
+  </script>
+</body>
+
 </html>
